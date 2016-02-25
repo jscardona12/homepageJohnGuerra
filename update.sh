@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rsync -avz -e "ssh -i /Users/jguerra/documentos/dutoViz/dutoVizNew.pem" *.html css ico img js papers ubuntu@54.225.66.99:/var/www/johnguerra.co
+rsync -avzu --progress -e "ssh -i /Users/aguerra/documentos/dutoViz/dutoVizNew.pem" *.html css ico img js papers *.pdf new ubuntu@johnguerra.co:/var/www/johnguerra.co
