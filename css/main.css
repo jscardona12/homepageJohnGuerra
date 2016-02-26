@@ -1,7 +1,81 @@
 body {
 	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-bottom: 40px;
+
+
+
+	background-image: linear-gradient(-180deg, #FFFFFF 0%, #F7F5F5 100%);
+	box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.50);
 }
+.subtitle {
+	/* I do Visual Analytic: */
+	font-family: HelveticaNeue;
+	font-size: 23.39px;
+	color: #999999;
+	line-height: 23.39px;
+}
+
+h2 {
+	margin-top: 40px;
+}
+
 .sidebar-nav {
 	padding: 9px 0;
+}
+
+.img400 {
+	width:80%;
+	max-width:400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.project-thumb {
+	width:95%;
+	max-width:200px;
+	min-width:80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-floater {
+	float: right;
+	margin-top: 20px;
+    text-align: right;
+
+
+}
+
+.clearer {
+	clear: both;
+}
+
+.time-slab {
+	width: 95%;
+	min-width: 80px;
+	max-width: 150px;
+}
+
+.project {
+	width:95%;
+	max-width:200px;
+	min-width:80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.50);
+	border-radius: 10px;
+}
+.svg-inject {
+	width:95%;
+}
+
+.bigger-description {
+	font-size: 120%;
 }

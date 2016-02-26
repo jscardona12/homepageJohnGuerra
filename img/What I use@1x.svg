@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="378px" height="315px" viewBox="0 0 378 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>What I use@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="CV_JohnGuerra" sketch:type="MSArtboardGroup" transform="translate(-628.000000, -617.000000)">
+            <g id="What-I-use" sketch:type="MSLayerGroup" transform="translate(632.000000, 619.495076)">
+                <path d="M188.100462,262.165613 C251.192137,262.165613 302.338046,211.019704 302.338046,147.928029 C302.338046,84.8363531 251.192137,33.6904445 188.100462,33.6904445 C125.008786,33.6904445 73.8628774,84.8363531 73.8628774,147.928029 C73.8628774,211.019704 125.008786,262.165613 188.100462,262.165613 Z" id="Oval-1" fill="#507B94" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+                <g id="Oval-3-+-Data-2" transform="translate(205.000000, 14.000000)">
+                    <ellipse id="Oval-3" fill="#7ED321" filter="url(#filter-2)" sketch:type="MSShapeGroup" cx="34.8402128" cy="34.5436594" rx="34.4577619" ry="34.4577619"></ellipse>
+                    <text id="SQL" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="14" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="20.7002128" y="42.4495431">SQL</tspan>
+                    </text>
+                </g>
+                <g id="Oval-3-+-Data-3" transform="translate(268.000000, 0.000000)">
+                    <path d="M23.819621,46.8282488 C36.6907172,46.8282488 47.1248022,36.3941638 47.1248022,23.5230676 C47.1248022,10.6519714 36.6907172,0.217886358 23.819621,0.217886358 C10.9485248,0.217886358 0.514439762,10.6519714 0.514439762,23.5230676 C0.514439762,36.3941638 10.9485248,46.8282488 23.819621,46.8282488 Z" id="Oval-3" fill="#7ED321" filter="url(#filter-3)" sketch:type="MSShapeGroup"></path>
+                    <text id="Hadoop" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="6.84940178" y="21.4495431">Hadoop</tspan>
+                        <tspan x="2.26840178" y="32.7106058">(Hive, Pig) </tspan>
+                    </text>
+                </g>
+                <g id="Oval-3-+-Data-4" transform="translate(300.000000, 35.000000)">
+                    <path d="M20.8125968,40.8295641 C32.0314445,40.8295641 41.1261175,31.7348911 41.1261175,20.5160434 C41.1261175,9.2971956 32.0314445,0.202522562 20.8125968,0.202522562 C9.59374901,0.202522562 0.499075966,9.2971956 0.499075966,20.5160434 C0.499075966,31.7348911 9.59374901,40.8295641 20.8125968,40.8295641 Z" id="Oval-3" fill="#7ED321" filter="url(#filter-4)" sketch:type="MSShapeGroup"></path>
+                    <text id="NoSQL" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="5.59090178" y="18.2543286">NoSQL</tspan>
+                        <tspan x="3.10240178" y="29.5153912">(Mongo)</tspan>
+                    </text>
+                </g>
+                <g id="Oval-3-+-Data-3" transform="translate(267.000000, 61.000000)">
+                    <ellipse id="Oval-3" fill="#7ED321" filter="url(#filter-5)" sketch:type="MSShapeGroup" cx="19.8402128" cy="20.5436594" rx="20.2128065" ry="20.2128065"></ellipse>
+                    <text id="Pandas" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="3.83821276" y="23.3335763">Pandas</tspan>
+                    </text>
+                </g>
+                <g id="userEval-2" transform="translate(271.000000, 163.000000)">
+                    <path d="M29.8498752,59.1190231 C46.1494854,59.1190231 59.3629301,45.9055784 59.3629301,29.6059682 C59.3629301,13.3063581 46.1494854,0.0929133297 29.8498752,0.0929133297 C13.5502651,0.0929133297 0.336820343,13.3063581 0.336820343,29.6059682 C0.336820343,45.9055784 13.5502651,59.1190231 29.8498752,59.1190231 Z" id="Oval-4" fill="#F8A04D" filter="url(#filter-6)" sketch:type="MSShapeGroup"></path>
+                    <text id="Controlled" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="7.35887523" y="27.6168935">Controlled</tspan>
+                        <tspan x="2.94437523" y="38.8779561">Experiments</tspan>
+                    </text>
+                </g>
+                <g id="userEval-3" transform="translate(243.000000, 216.000000)">
+                    <path d="M29.8498752,60.9360928 C46.6007405,60.9360928 60.1799999,47.3568335 60.1799999,30.6059682 C60.1799999,13.8551029 46.6007405,0.27584359 29.8498752,0.27584359 C13.0990099,0.27584359 -0.480249397,13.8551029 -0.480249397,30.6059682 C-0.480249397,47.3568335 13.0990099,60.9360928 29.8498752,60.9360928 Z" id="Oval-4" fill="#F8A04D" filter="url(#filter-7)" sketch:type="MSShapeGroup"></path>
+                    <text id="Usability" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="11.3638752" y="27.3958852">Usability</tspan>
+                        <tspan x="13.7668752" y="38.6569478">Studies</tspan>
+                    </text>
+                </g>
+                <g id="userEval-3" transform="translate(308.000000, 216.000000)">
+                    <path d="M30.8139858,61.0363915 C47.6400657,61.0363915 61.2802986,47.3961587 61.2802986,30.5700788 C61.2802986,13.7439989 47.6400657,0.10376602 30.8139858,0.10376602 C13.9879059,0.10376602 0.347673033,13.7439989 0.347673033,30.5700788 C0.347673033,47.3961587 13.9879059,61.0363915 30.8139858,61.0363915 Z" id="Oval-4" fill="#F8A04D" filter="url(#filter-8)" sketch:type="MSShapeGroup"></path>
+                    <text id="MILCS" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="14" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="8.55487523" y="35.5405385">MILCS</tspan>
+                    </text>
+                </g>
+                <g id="ux" transform="translate(197.000000, 248.000000)">
+                    <path d="M26.2536586,51.8801783 C40.5425111,51.8801783 52.1259147,40.2967747 52.1259147,26.0079223 C52.1259147,11.7190698 40.5425111,0.135666242 26.2536586,0.135666242 C11.9648061,0.135666242 0.381402557,11.7190698 0.381402557,26.0079223 C0.381402557,40.2967747 11.9648061,51.8801783 26.2536586,51.8801783 Z" id="Oval-4" fill="#F6B97F" filter="url(#filter-9)" sketch:type="MSShapeGroup"></path>
+                    <text id="Rapid" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="13.7616586" y="22.7978393">Rapid</tspan>
+                        <tspan x="1.1706586" y="34.0589019">Prototyping</tspan>
+                    </text>
+                </g>
+                <g id="ML-2" transform="translate(296.000000, 94.000000)">
+                    <path d="M19.8716222,40.20186 C31.027601,40.20186 40.0713088,31.1581523 40.0713088,20.0021735 C40.0713088,8.84619463 31.027601,-0.197513086 19.8716222,-0.197513086 C8.71564339,-0.197513086 -0.328064318,8.84619463 -0.328064318,20.0021735 C-0.328064318,31.1581523 8.71564339,40.20186 19.8716222,40.20186 Z" id="Oval-5" fill="#B8E986" filter="url(#filter-10)" sketch:type="MSShapeGroup"></path>
+                    <text id="R" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="14" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="14.85044" y="23.5311769">R</tspan>
+                    </text>
+                </g>
+                <g id="d3.js" transform="translate(38.000000, 59.000000)">
+                    <ellipse id="Oval-2" fill="#F8E81C" filter="url(#filter-11)" sketch:type="MSShapeGroup" cx="40.3937832" cy="40.76167" rx="40.4611367" ry="40.4611367"></ellipse>
+                    <text id="D3.js" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="14" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="23.6637832" y="48.551587">D3.js</tspan>
+                    </text>
+                </g>
+                <g id="Tableau" transform="translate(95.000000, 8.000000)">
+                    <path d="M33.3620845,66.3044894 C51.5885737,66.3044894 66.3640625,51.5290006 66.3640625,33.3025114 C66.3640625,15.0760222 51.5885737,0.300533313 33.3620845,0.300533313 C15.1355953,0.300533313 0.360106427,15.0760222 0.360106427,33.3025114 C0.360106427,51.5290006 15.1355953,66.3044894 33.3620845,66.3044894 Z" id="Oval-2" fill="#F8E81C" filter="url(#filter-12)" sketch:type="MSShapeGroup"></path>
+                    <text sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="14" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="6.82878319" y="37.6675538">Tableau</tspan>
+                    </text>
+                </g>
+                <g id="Javascript" transform="translate(21.000000, 32.000000)">
+                    <path d="M28.4052659,57.2794489 C44.1488586,57.2794489 56.9115621,44.5167454 56.9115621,28.7731527 C56.9115621,13.0295601 44.1488586,0.266856556 28.4052659,0.266856556 C12.6616733,0.266856556 -0.101030273,13.0295601 -0.101030273,28.7731527 C-0.101030273,44.5167454 12.6616733,57.2794489 28.4052659,57.2794489 Z" id="Oval-2" fill="#F8E81C" filter="url(#filter-13)" sketch:type="MSShapeGroup"></path>
+                    <text id="JavaScript" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="5.67614648" y="31.5865135">JavaScript</tspan>
+                    </text>
+                </g>
+                <g id="Html" transform="translate(0.000000, 84.000000)">
+                    <ellipse id="Oval-2" fill="#F8E81C" filter="url(#filter-14)" sketch:type="MSShapeGroup" cx="25.3937832" cy="24.76167" rx="25.0336768" ry="25.0336768"></ellipse>
+                    <text id="HTML5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="10.0577832" y="22.7725953">HTML5</tspan>
+                        <tspan x="17.9777832" y="34.0336579">css</tspan>
+                    </text>
+                </g>
+                <g id="systemArch" transform="translate(84.000000, 219.000000)">
+                    <path d="M43.537451,87.4829302 C67.807869,87.4829302 87.4829302,67.807869 87.4829302,43.537451 C87.4829302,19.2670329 67.807869,-0.408028293 43.537451,-0.408028293 C19.2670329,-0.408028293 -0.408028293,19.2670329 -0.408028293,43.537451 C-0.408028293,67.807869 19.2670329,87.4829302 43.537451,87.4829302 Z" id="Oval-6" fill="#50C6E3" filter="url(#filter-15)" sketch:type="MSShapeGroup"></path>
+                    <text id="Python" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="14" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="20.0646981" y="47.3607328">Python</tspan>
+                    </text>
+                </g>
+                <g id="systemArch-2" transform="translate(38.000000, 247.690444)">
+                    <path d="M28.5564043,57.2248511 C44.3895503,57.2248511 57.2248511,44.3895503 57.2248511,28.5564043 C57.2248511,12.7232584 44.3895503,-0.112042439 28.5564043,-0.112042439 C12.7232584,-0.112042439 -0.112042439,12.7232584 -0.112042439,28.5564043 C-0.112042439,44.3895503 12.7232584,57.2248511 28.5564043,57.2248511 Z" id="Oval-6" fill="#50C6E3" filter="url(#filter-16)" sketch:type="MSShapeGroup"></path>
+                    <text id="Django" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="14" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="4.55369812" y="32.3607328">Django</tspan>
+                    </text>
+                </g>
+                <g id="systemArch-2" transform="translate(25.000000, 148.000000)">
+                    <path d="M32.5035906,64.8014972 C50.3412319,64.8014972 64.8014972,50.3412319 64.8014972,32.5035906 C64.8014972,14.6659493 50.3412319,0.205683972 32.5035906,0.205683972 C14.6659493,0.205683972 0.205683972,14.6659493 0.205683972,32.5035906 C0.205683972,50.3412319 14.6659493,64.8014972 32.5035906,64.8014972 Z" id="Oval-6" fill="#50C6E3" filter="url(#filter-17)" sketch:type="MSShapeGroup"></path>
+                    <text id="Node.js" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="14" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="6.99969812" y="36.3607328">Node.js</tspan>
+                    </text>
+                </g>
+                <g id="systemArch-2" transform="translate(67.000000, 203.000000)">
+                    <path d="M19.0020991,37.8839522 C29.4302586,37.8839522 37.8839522,29.4302586 37.8839522,19.0020991 C37.8839522,8.5739396 29.4302586,0.120246014 19.0020991,0.120246014 C8.5739396,0.120246014 0.120246014,8.5739396 0.120246014,19.0020991 C0.120246014,29.4302586 8.5739396,37.8839522 19.0020991,37.8839522 Z" id="Oval-6" fill="#50C6E3" filter="url(#filter-18)" sketch:type="MSShapeGroup"></path>
+                    <text id="Java" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="8.18461538" font-weight="bold" sketch:alignment="middle" fill="#636363">
+                        <tspan x="9.84591582" y="21.0724284">Java</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
