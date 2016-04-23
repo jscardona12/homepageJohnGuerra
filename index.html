@@ -26,7 +26,7 @@
 	</head>
 
 	<body>
-		<div class="container-fluid">
+		<div class="content container-fluid">
 			<div class="row">
 				<div class="col-md-8 col-sm-7">
 					<h1>John Alexis Guerra Gómez</h1>
@@ -45,10 +45,9 @@
 						<a href="full_cv.html">Full CV</a>
 						<br>
 						<a href="#experience">Experience</a> |
-						<a href="#highlights">Highlights</a> |
-						<!-- <a href="#projects">Projects</a> | -->
-						<a href="#papers">Papers</a> |
+						<a href="#achievements">Achievements</a> |
 						<a href="#projects">Projects</a> |
+						<a href="#papers">Papers</a> |
 						<a href="#photos">Photos</a>
 					</div>
 				</div>
@@ -89,7 +88,7 @@
 				</div>
 
 
-				<h2 id="highlights">Highlights</h2>
+				<h2 id="achievements">Things I'm proud of</h2>
 				<!-- Yahoo labs -->
 				<div class="row">
 					<div class="col-md-1 col-sm-1 col-xs-2">
@@ -101,6 +100,7 @@
 							<li>Helped redesigned <strong>Flickr stats</strong>.</li>
 							<li>Developed and deployed a visualization for better exploring the organizational units that is being used company wide.</li>
 							<li>Built a system for exploring the best photos in Flickr based in geo-location.</li>
+							<li>Two paper collaborations in CHI 2016.</li>
 							<li>Created visual analytics for dozens of complex Yahoo datasets.</li>
 						</ul>
 					</div>
@@ -275,13 +275,105 @@
 					</div>
 				</div>
 				<!-- End DUTO -->
+				<!-- End achievements -->
 
-				<!-- End highlights -->
 
-				<h2 id="papers">Selected papers and publications</h2>
+				<div id="projects">
+						<h2>Things I have built</h2>
+						<div class="row">
+							<div class="col-md-2">
+								<img class="project" src="img/colorsTreemap.png" alt="Phototreemap"/>
+							</div>
+							<div class="col-md-10">
+								<h4>Phototreemap</h4>
+								<p>Representing groups of photos with numeric attributes. Work in progress, pending publication.</p>
+							</div>
+						</div>
+						<!-- end phototreemap -->
+						<br>
+
+
+						<div class="row">
+							<div class="col-md-2">
+								<img class="project" src="img/overview_10k_nointer_cropped.png" alt="Network Explorer"/>
+							</div>
+							<div class="col-md-10">
+								<h4>Network Explorer</h4>
+								<p>Visual analytics tool for understanding large networks. Pending publication.</p>
+							</div>
+						</div>
+						<!-- end phototreemap -->
+						<br>
+
+
+						<div class="row">
+							<div class="col-md-2">
+								<a href="treeversity_v2.html">
+									<img class="project" src="img/treeversity_v2_thumb.png" alt="TreeVersity v2"/>
+								</a>
+							</div>
+							<div class="col-md-10">
+								<a href="treeversity_v2.html"><h4>TreeVersity v2</h4></a>
+								<p>Visualizing five dimensions of change in a dataset changing over time using hierarchies</p>
+							</div>
+						</div>
+
+						<!-- end treeversity2 -->
+						<br>
+
+						<div class="row">
+							<div class="col-md-2">
+								<a href="http://hcil.cs.umd.edu/treeversity"> <img class="project" src="img/treeversityv1.png" alt="TreeVersity v1"/></a>
+							</div>
+							<div class="col-md-10">
+								<a href="http://hcil.cs.umd.edu/treeversity"><h4>TreeVersity v1</h4></a>
+								<p>Comparing changes between trees on structure and node values.</p>
+							</div>
+						</div>
+						<!-- end treeversity -->
+						<br>
+
+
+
+						<div class="row">
+							<div class="col-md-2">
+								<a href="http://www.cs.umd.edu/hcil/lifeflow/"> <img class="project" src="img/lifeflow_thumb.png" alt="LifeFlow"/>  </a>
+							</div>
+							<div class="col-md-10">
+								<a href="http://www.cs.umd.edu/hcil/lifeflow/"><h4>LifeFlow</h4></a>
+								<p>A visual analytics tool for temporal categorical data. Helped developing the comparison modules as part of a broader project.</p>
+							</div>
+						</div>
+						<!-- end Lifeflow -->
+
+						<br>
+
+						<div class="row">
+							<div class="col-md-2">
+								<a href="http://duto.org/iris">
+									<img class="project" src="img/IRIS.jpg" alt="IRIS"/>
+								</a>
+							</div>
+							<div class="col-md-10">
+								<a href="http://duto.org/iris"><h4>IRIS</h4></a>
+								<p>A system to allow blind children to see colors and shapes with their hands</p>
+							</div>
+						</div>
+						<!-- end IRIS -->
+					</div>
+					<!-- end projects -->
+
+
 				<div class="row">
+					<h2 id="papers">Selected papers and publications</h2>
 					<div class="col-md-12">
 						<ul>
+							<li>
+								2016 John Alexis Guerra Gómez, Cati Boulanger, Sanjay Kairam, David A. Shamma, <a href="papers/avi-treemaps_camera_ready.pdf"></a>Identifying Best Practices for Visualizing Photo Statistics and Galleries using Treemaps</a>. AVI 2016: ACM International Working Conference on Advanced Visual Interfaces [To Appear]
+							</li>
+							<li>
+								2016 John Alexis Guerra Gómez, Aaron Wilson, Juan Liu, Dan Davies, Peter Jarvis and Eric Bier, <a href="#"></a>Design, Implementation, and Real World Deployment of the Network Explorer, a Large Network Visual Analytics Tool</a>. AVI 2016: ACM International Working Conference on Advanced Visual Interfaces [To Appear]
+							</li>
 							<li>
 								2016 Frank Bentley, Joseph ‘Jofish’ Kaye, David A. Shamma, John Alexis Guerra Gómez, <a href="papers/Bentley_CHI2016.pdf"/>"The 32 Days Of Christmas: Understanding Temporal Intent in Image Search Queries "</a>. CHI 2016: ACM Conference on Human Factors in Computing Systems [To Appear]
 							</li>
@@ -343,97 +435,15 @@
 					<!-- end patents -->
 
 
-					<div id="projects">
-						<h2>Projects</h2>
-						<div class="row">
-							<div class="col-md-2">
-								<img class="project" src="img/colorsTreemap.png" alt="Phototreemap"/>
-							</div>
-							<div class="col-md-10">
-								<h4>Phototreemap</h4>
-								<p>Representing groups of photos with numeric attributes</p>
-							</div>
-						</div>
-						<!-- end phototreemap -->
-						<br>
 
-
-						<div class="row">
-							<div class="col-md-2">
-								<img class="project" src="img/overview_10k_nointer_cropped.png" alt="Network Explorer"/>
-							</div>
-							<div class="col-md-10">
-								<h4>Network Explorer</h4>
-								<p>Visual analytics tool for understanding large networks</p>
-							</div>
-						</div>
-						<!-- end phototreemap -->
-						<br>
-
-
-
-
-						<div class="row">
-							<div class="col-md-2">
-								<a href="treeversity_v2.html">
-									<img class="project" src="img/treeversity_v2_thumb.png" alt="TreeVersity v2"/>
-								</a>
-							</div>
-							<div class="col-md-10">
-								<a href="treeversity_v2.html"><h4>TreeVersity v2</h4></a>
-								<p>Visualizing five dimensions of change in a dataset changing over time using hierarchies</p>
-							</div>
-						</div>
-
-						<!-- end treeversity2 -->
-						<br>
-
-						<div class="row">
-							<div class="col-md-2">
-								<a href="http://hcil.cs.umd.edu/treeversity"> <img class="project" src="img/treeversityv1.png" alt="TreeVersity v1"/></a>
-							</div>
-							<div class="col-md-10">
-								<a href="http://hcil.cs.umd.edu/treeversity"><h4>TreeVersity v1</h4></a>
-								<p>Comparing changes between trees on structure and node values.</p>
-							</div>
-						</div>
-						<!-- end treeversity -->
-						<br>
-
-
-
-						<div class="row">
-							<div class="col-md-2">
-								<a href="http://www.cs.umd.edu/hcil/lifeflow/"> <img class="project" src="img/lifeflow_thumb.png" alt="LifeFlow"/>  </a>
-							</div>
-							<div class="col-md-10">
-								<a href="http://www.cs.umd.edu/hcil/lifeflow/"><h4>LifeFlow</h4></a>
-								<p>A visual analytics tool for temporal categorical data</p>
-							</div>
-						</div>
-						<!-- end Lifeflow -->
-						<br>
-
-						<div class="row">
-							<div class="col-md-2">
-								<a href="http://duto.org/iris">
-									<img class="project" src="img/IRIS.jpg" alt="IRIS"/>
-								</a>
-							</div>
-							<div class="col-md-10">
-								<a href="http://duto.org/iris"><h4>IRIS</h4></a>
-								<p>A system to allow blind children to see colors and shapes with their hands</p>
-							</div>
-						</div>
-						<!-- end IRIS -->
-
-
-					</div>
 
 					<div id="photos" class="row">
 						<div class="col-md-6">
-							<h2><a href="https://www.flickr.com/photos/johnguerra">Photos</a></h2>
+							<h2>My Hobby: Photography</h2>
+							<p>I love taking photos, it is my main hobby. I have more than 250k photos to date, so I care about the problem of organizing and navigating photo repositories ;). Here is a sample of <a href="https://www.flickr.com/photos/johnguerra">my photos on Flickr</a>:</p>
 							<a data-flickr-embed="true" data-header="true" data-context="true"  href="https://www.flickr.com/photos/johnguerra/24463743580/in/datetaken-public/" title="IMG_1734"><img src="https://farm2.staticflickr.com/1639/24159316986_05477c5979_c.jpg" width="100%" alt="IMG_1734"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
 						</div>
 					</div>
 					<!-- end photos -->

@@ -1,133 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="974px" height="131px" viewBox="0 0 974 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="998px" height="129px" viewBox="0 0 998 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
     <title>Experience Timeline</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="CV_JohnGuerra" sketch:type="MSArtboardGroup" transform="translate(-120.000000, -1024.000000)">
-            <g id="Experience-Timeline" sketch:type="MSLayerGroup" transform="translate(119.000000, 1026.000000)">
-                <rect id="Rectangle-21" stroke="#FFFFFF" fill="#507B94" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="509.704068" y="0.277547456" width="285.973816" height="38.8354714" rx="10"></rect>
-                <rect id="Rectangle-22" stroke="#FFFFFF" fill="#507B94" filter="url(#filter-2)" sketch:type="MSShapeGroup" x="305.424995" y="0.277547456" width="204.267012" height="38.8354714" rx="10"></rect>
-                <rect id="Path" stroke="#FFFFFF" fill="#507B94" filter="url(#filter-3)" sketch:type="MSShapeGroup" x="20.6997401" y="0.277547456" width="285.973816" height="38.8354714" rx="10"></rect>
-                <g id="Rectangle-25-+-Parc" transform="translate(796.057812, 0.277547)">
-                    <rect id="Rectangle-25" stroke="#FFFFFF" fill="#507B94" filter="url(#filter-4)" sketch:type="MSShapeGroup" x="0" y="0" width="86.7734112" height="38.8354714" rx="10"></rect>
+        <g id="CV_JohnGuerra" sketch:type="MSArtboardGroup" transform="translate(-96.000000, -1026.000000)">
+            <g id="Experience-Timeline" sketch:type="MSLayerGroup" transform="translate(95.000000, 1026.000000)">
+                <rect id="Rectangle-21" stroke="#FFFFFF" fill="#507B94" sketch:type="MSShapeGroup" x="326.066924" y="0.277547456" width="414.975144" height="38.8354714"></rect>
+                <rect id="Rectangle-22" stroke="#FFFFFF" fill="#507B94" sketch:type="MSShapeGroup" x="29.6386066" y="0.277547456" width="296.410817" height="38.8354714"></rect>
+                <g id="Rectangle-25-+-Parc" transform="translate(741.593380, 0.277547)">
+                    <rect id="Rectangle-25" stroke="#FFFFFF" fill="#507B94" sketch:type="MSShapeGroup" x="0" y="0" width="125.916454" height="38.8354714"></rect>
                     <text id="Parc" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="12.794323" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
-                        <tspan x="28.9271563" y="24.0205031">Parc</tspan>
+                        <tspan x="48.3361907" y="24.0205031">Parc</tspan>
                     </text>
                 </g>
-                <g id="Rectangle-25-+-Parc-Copy" transform="translate(883.000000, 0.277547)">
-                    <rect id="Rectangle-25" stroke="#FFFFFF" fill="#507B94" filter="url(#filter-5)" sketch:type="MSShapeGroup" x="0" y="0" width="72.7631208" height="38.8354714" rx="10"></rect>
+                <g id="Rectangle-25-+-Parc-Copy" transform="translate(867.754745, 0.277547)">
+                    <rect id="Rectangle-25" stroke="#FFFFFF" fill="#507B94" sketch:type="MSShapeGroup" x="0" y="0" width="105.586193" height="38.8354714"></rect>
                     <text id="Yahoo-Labs" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="12.794323" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
-                        <tspan x="18.8369801" y="17.0205031">Yahoo </tspan>
-                        <tspan x="23.5772767" y="32.3916274">Labs</tspan>
+                        <tspan x="19.5651871" y="23.0205031">Yahoo Labs</tspan>
                     </text>
                 </g>
-                <rect id="Rectangle-23" stroke="#FFFFFF" fill="#86C6D7" filter="url(#filter-6)" sketch:type="MSShapeGroup" x="305.424995" y="41.8869811" width="489.7079" height="38.8354714" rx="10"></rect>
-                <rect id="Rectangle-24" stroke="#FFFFFF" fill="#86C6D7" filter="url(#filter-7)" sketch:type="MSShapeGroup" x="795.132895" y="41.8869811" width="160.867105" height="38.8354714" rx="10"></rect>
+                <rect id="Rectangle-23" stroke="#FFFFFF" fill="#86C6D7" sketch:type="MSShapeGroup" x="29.6386066" y="38.8869811" width="711.612631" height="38.8354714"></rect>
+                <rect id="Rectangle-24" stroke="#FFFFFF" fill="#86C6D7" sketch:type="MSShapeGroup" x="741.251238" y="38.8869811" width="232.433434" height="38.8354714"></rect>
                 <text id="PhD-2" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="12.794323" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
-                    <tspan x="639.890256" y="23.0026157">PhD</tspan>
+                    <tspan x="520.753776" y="23.0026157">PhD</tspan>
                 </text>
-                <path d="M21.0604109,105.5 L969.500026,105.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path id="Line-decoration-1" d="M969.500026,105.5 L958.700026,102.5 L958.700026,108.5 L969.500026,105.5 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M32.6101801,105.5 L993.274491,105.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path id="Line-decoration-1" d="M993.274491,105.5 L982.474491,102.5 L982.474491,108.5 L993.274491,105.5 Z" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
                 <g id="Group" transform="translate(0.000000, 110.000000)" font-size="18" font-family="Helvetica Neue" fill="#636363" sketch:type="MSTextLayer" font-weight="normal">
-                    <text id="1997">
-                        <tspan x="0" y="17.5524143">1997</tspan>
-                    </text>
                     <text id="2008">
-                        <tspan x="487.723562" y="17.5524143">2008</tspan>
+                        <tspan x="294.171126" y="17.5524143">2008</tspan>
                     </text>
                     <text id="2015">
-                        <tspan x="867.4321" y="17.5524143">2015</tspan>
+                        <tspan x="845.164244" y="17.5524143">2015</tspan>
                     </text>
                     <text id="2013">
-                        <tspan x="750.182629" y="17.5524143">2013</tspan>
+                        <tspan x="675.024136" y="17.5524143">2013</tspan>
                     </text>
                     <text id="-2005">
-                        <tspan x="285.838745" y="17.5524143">2004</tspan>
+                        <tspan x="1.21709825" y="17.5524143">2004</tspan>
                     </text>
                 </g>
                 <text id="Lecturer" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="12.794323" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
-                    <tspan x="381.726763" y="22">Lecturer</tspan>
+                    <tspan x="152.012277" y="22">Lecturer</tspan>
                 </text>
                 <text id="Cofounder/CTO-DUTO" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="12.794323" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
-                    <tspan x="480.511989" y="64">Cofounder/CTO DUTO</tspan>
+                    <tspan x="314.60104" y="64">Cofounder/CTO DUTO</tspan>
                 </text>
-                <text id="Extras" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="12.794323" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
-                    <tspan x="855.571821" y="65">Extras</tspan>
+                <text id="Other-Projects" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="12.794323" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="811.711302" y="62.6855622">Other Projects</tspan>
                 </text>
-                <text id="Undergrad" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="12.794323" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
-                    <tspan x="131.105905" y="23.0026157">Undergrad</tspan>
-                </text>
-                <path d="M20.3908387,110.563661 L20.3908387,99.5" id="Path-47" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
-                <path d="M307,111 L307,99.9363388" id="Path-48" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
-                <path d="M510,111 L510,99.9363388" id="Path-49" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
-                <path d="M772,111 L772,99.9363388" id="Path-50" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
-                <path d="M882,111 L882,99.9363388" id="Path-50-Copy" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
+                <path d="M31.9240876,111 L31.9240876,99.9363388" id="Path-48" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
+                <path d="M326.49635,111 L326.49635,99.9363388" id="Path-49" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
+                <path d="M706.683212,111 L706.683212,99.9363388" id="Path-50" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
+                <path d="M866.30365,111 L866.30365,99.9363388" id="Path-50-Copy" stroke="#979797" stroke-width="3" sketch:type="MSShapeGroup"></path>
             </g>
         </g>
     </g>
