@@ -3,6 +3,7 @@ var urlHtml = "1uP-2hsA3gPxOoDpfKKOOCxl5M6dT40hWpPlxlg5W2Bg";
 var container = d3.select("#projects");
 
 function update(data) {
+  console.log(data.length);
   var nested_data = d3.nest()
     .key(function (d) { return d["Proyecto"];})
       .sortKeys(function (a, b) {
@@ -86,14 +87,11 @@ function update(data) {
 }
 
 function preProcess(data) {
-  var dictGroups = {};
-  data.forEach(function (d) {
-    dictGroups[d["Código"]]=d;
-  })
-  return d3.values(dictGroups);
+  return d3.values(data);
 }
 
 function updateFromGSheet(data) {
+  console.log(data)
   var procData = preProcess(data);
   update(procData);
 }
