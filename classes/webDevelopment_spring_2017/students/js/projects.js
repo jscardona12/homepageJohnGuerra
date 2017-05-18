@@ -8,7 +8,7 @@ function update(data) {
   var nested_data = d3.nest()
     .key(function (d) { return d["Proyecto"];})
       .sortKeys(function (a, b) {
-        return a === "Others" ?
+        return a === "Final project" ?
           1 :
           b === "Others" ?
             -1 :
@@ -54,11 +54,14 @@ function update(data) {
     .append("div")
     .attr("class", "description col-sm-12");
 
-  desc.append("p")
+  desc.append("a")
+    .attr("href" , function (d) { return d["URL de su página personal"];})
     .text(function (d) { return d["Nombres "] + " " + d["Apellidos"] });
 
   body.append("div")
     .attr("class", "project-thumb")
+    .append("a")
+    .attr("href", function (d) { return d["Repositorio de github"];})
     .append("img")
       .attr("class", "img-circle")
       .attr("src", function (d) {
