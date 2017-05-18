@@ -1,4 +1,5 @@
-var urlHtml = "1uP-2hsA3gPxOoDpfKKOOCxl5M6dT40hWpPlxlg5W2Bg";
+/* globals d3 */
+var urlHtml = "1SfbtSH4T4f323VOzfRmr3pPc8TMPMkgru4l0w9UHZ1c";
 
 var container = d3.select("#projects");
 
@@ -22,10 +23,14 @@ function update(data) {
         .attr("class", "topic row col-sm-12");
 
   topics.append("h3")
-    .text(function (d) { return d.key; })
+    .text(function (d) { return d.key; });
 
   var projs = topics.selectAll(".project")
-    .data(function (d) { return d.values; })
+    .data(function (d) {
+      return d.values.sort(function (a, b) {
+        return d3.ascending(a["Nombres "], b["Nombres "]);
+      });
+    })
       .enter()
         .append("div")
           .attr("class", "col-sm-2 project");
@@ -55,6 +60,7 @@ function update(data) {
   body.append("div")
     .attr("class", "project-thumb")
     .append("img")
+      .attr("class", "img-circle")
       .attr("src", function (d) {
         return d["URL de un thumbnail del proyecto"] ?
           d["URL de un thumbnail del proyecto"] :
@@ -80,12 +86,15 @@ function update(data) {
     .text("Code");
 
   desc2.append("a")
+    .filter(function (d) { return d["URL del proyecto"]; })
     .attr("class", "")
     .attr("href", function (d) { return d["URL del proyecto"]; })
     .attr("target", "_blank")
     .text("Demo");
 
-  desc2.append("a")
+  desc2
+    .filter(function (d) { return d["URL del video de demostración del proyecto en YouTube"]; })
+    .append("a")
     .attr("class", "")
     .attr("href", function (d) { return d["URL del video de demostración del proyecto en YouTube"]; })
     .attr("target", "_blank")
@@ -110,6 +119,6 @@ function init() {
 }
 
 // Update from googleSheets
-window.onload = function() { init() };
-d3.select("table").attr("class", "table");
+window.onload = function() { init(); };
+
 
