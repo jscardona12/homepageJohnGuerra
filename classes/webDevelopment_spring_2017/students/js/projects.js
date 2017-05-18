@@ -54,9 +54,12 @@ function update(data) {
     .append("div")
     .attr("class", "description col-sm-12");
 
+
   desc.append("a")
     .attr("href" , function (d) { return d["URL de su página personal"];})
     .text(function (d) { return d["Nombres "] + " " + d["Apellidos"] });
+  desc.append("p")
+    .text(function (d) { return d["Nombre del proyecto"]; });
 
   body.append("div")
     .attr("class", "project-thumb")
@@ -104,13 +107,16 @@ function update(data) {
     .text("Video");
 
 }
-
 function preProcess(data) {
-  return d3.values(data);
+  var dictStudentProj = {};
+  data.forEach(function (d) {
+    dictStudentProj[d["Proyecto"]+d["Código"]]=d;
+  });
+  return d3.values(dictStudentProj);
 }
 
 function updateFromGSheet(data) {
-  console.log(data)
+  // console.log(data);
   var procData = preProcess(data);
   update(procData);
 }
