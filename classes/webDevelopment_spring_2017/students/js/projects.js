@@ -8,10 +8,7 @@ function update(data) {
   var nested_data = d3.nest()
     .key(function (d) { return d["Proyecto"];})
       .sortKeys(function (a, b) {
-        return a === "Final project" ?
-          1 :
-          b === "Others" ?
-            -1 :
+        return
             d3.ascending(a, b);
       })
     .entries(data);
