@@ -93,7 +93,7 @@ function update(data) {
   body.append("div")
     .attr("class", "student")
     .append("a")
-    .attr("href", function (d) { return d["student1_homepage"]})
+    .attr("href", function (d) { return d["student2_homepage"]})
     .attr("target", "_blank")
       .text(function (d) { return d["student2_name"]; });
 
