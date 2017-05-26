@@ -22,21 +22,31 @@ function update(data) {
       })
     .entries(data);
 
-  var topics = container.selectAll(".topic")
+  var topicsRow = container.selectAll(".topic")
     .data(nested_data)
       .enter()
         .append("div")
-        .attr("class", "topic row col-sm-12")
+        .attr("class", "topic row");
+
+  topicsRow
+        .append("div")
+        .attr("class", "col-md-1 col-sm-0");
+  var topics = topicsRow
+        .append("div")
+        .attr("class", "col-md-10 col-sm-12");
 
   topics.append("h2")
-    .text(function (d) { return d.key; })
+    .text(function (d) { return d.key; });
 
   var projs = topics.selectAll(".project")
     .data(function (d) { return d.values; })
       .enter()
         .append("div")
-          .attr("class", "col-sm-4")
+          .attr("class", "col-md-4 col-sm-4")
         .append("div")
+          .attr("id", function (d) {
+            return d.project_name.replace(new RegExp(" ","g"), "");
+          })
           .attr("class", "project panel panel-default");
 
   projs
