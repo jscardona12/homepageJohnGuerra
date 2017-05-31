@@ -1,0 +1,35 @@
+
+#timeline {
+  /*background: #eee;*/
+  font-size: 15px;
+  width: 100%;
+}
+.axis .domain {
+  display: none;
+}
+.entry rect {
+  /*opacity: 0.7;*/
+  /*stroke: white;*/
+  stroke-width: 1px;
+}
+
+#timeline .entry text {
+  text-anchor: middle;
+  font-family: HelveticaNeue-Bold;
+  fill: white;
+  text-shadow: 0 1px 0 #507B94, 1px 0 0 #507B94, 0 -1px 0 #507B94, -1px 0 0 #507B94;
+
+}
+#timeline .axis {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+
+}
+#timeline .axis path, #timeline .axis line {
+  stroke-width: 2.5px;
+  stroke: #979797;
+}
+#timeline .axis text {
+  fill: #636363;
+  stroke: none;
+}
