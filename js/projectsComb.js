@@ -31,7 +31,7 @@
   var height = 850;
 
   //The number of columns and rows of the heatmap
-  var MapColumns = 3,
+  var MapColumns = 6,
     MapRows; // I'll compute this later
 
 
