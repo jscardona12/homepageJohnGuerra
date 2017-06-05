@@ -1,0 +1,44 @@
+project,date,categories,type,thumb,url,rating
+bens_network,08/01/2009,treeViz,research,Ben'sFlickr_thumb.png,http://johnguerra.co,2
+btactile,01/01/2016,treeViz,research,BTactile_screenshot_small.png,http://johnguerra.co,5
+flickrstats,10/01/2015,treeViz,research,flickrstats.png,http://johnguerra.co,5
+flickrstats Mobile,11/01/2015,treeViz,research,flickrstats_mobile.png,http://johnguerra.co,5
+forceinabox,12/01/2014,treeViz,research,forceInABoxv4.gif,http://johnguerra.co,5
+iris,12/04/2004,treeViz,research,IRIS.jpg,http://johnguerra.co,5
+lifeflow,12/01/2014,treeViz,research,lifeflow_thumb.png,http://johnguerra.co,5
+network_explorer,12/01/2014,treeViz,research,network_explorer.png,http://johnguerra.co,5
+phototreemap,06/01/2015,treeViz,research,phototreemap.png,http://johnguerra.co,5
+photoranking,01/01/2013,treeViz,research,photo_ranking.png,http://johnguerra.co,5
+steamgraph,01/01/2013,treeViz,research,Timeline_Steamchart.png,http://johnguerra.co,5
+tradeflow,05/01/2012,treeViz,research,tradeflow_thumb.png,http://johnguerra.co,1
+treeversity,12/01/2011,treeViz,research,treeversityv1.png,http://johnguerra.co,5
+treeversity2,12/01/2012,treeViz,research,treeversity_v2.png,http://johnguerra.co,5
+tweetometro,04/01/2014,treeViz,research,tweetometro.png,http://johnguerra.co,5
+wholikesmyfb,01/01/2014,treeViz,research,wholikesmyfb.png,http://johnguerra.co,2
+Wingz,01/01/2015,treeViz,professional,wingz.png,http://johnguerra.co,3
+Photo Ring,10/01/2015,treeViz,professional,photoRing.png,http://johnguerra.co,5
+Photo Ranking,08/01/2015,treeViz,professional,photo_ranking.png,http://johnguerra.co,5
+MySocialTree,07/01/2013,treeViz,professional,mysocialtree_thumb.png,http://johnguerra.co,1
+Imports and exports,08/01/2011,treeViz,professional,import_export_map_thumb.png,http://johnguerra.co,1
+Flickr Popular,04/01/2015,treeViz,professional,FlickrPopular.png,http://johnguerra.co,5
+Flickr Posting times,10/01/2015,treeViz,professional,christmass.png,http://johnguerra.co,5
+Twitter Robots,04/01/2013,treeViz,professional,all_tweets_May_25_2014.png,http://johnguerra.co,3
+Twitter Influentials,04/01/2016,treeViz,professional,influentials_chi2017.gif,http://johnguerra.co,5
+Colombian Soccer Results,04/15/2017,treeViz,professional,resultadosFutbolColombiano.gif,http://johnguerra.co,3
+World Cup Eliminatory,04/01/2017,treeViz,professional,eliminatoria_mundial.gif,http://johnguerra.co,4
+Untangling the network,04/23/2017,treeViz,professional,untanglingTheNetwork.gif,http://johnguerra.co,5
+DC.js Tutorial,03/01/2017,treeViz,professional,dcjs_demo.gif,http://johnguerra.co,1
+AutoAlbum,04/01/2016,treeViz,professional,autoalbum.gif,http://johnguerra.co,1
+Blo.cks with force in a Box,05/08/2017,netViz,professional,blocks_forceinabox.gif,http://bl.ocks.org/john-guerra/fb39ff1e5d73fdb85cc13935e3eb8f1d,2
+LikertScales in d3,03/20/2017,viz,professional,likert.png,https://bl.ocks.org/john-guerra/57d31bae7685139cecd731bba9f48090,2
+Colored Weavy Treemaps,01/20/2017,viz,professional,weavytreemap.png,https://bl.ocks.org/john-guerra/7031ce041cb07a4053d56059a5d67005,1
+US Elections results 2012,10/31/2016,viz,professional,usElections2012.gif,https://bl.ocks.org/john-guerra/213160a5025315f028cda4ebc0c97256,4
+Colombian Peace Agreement results,10/31/2016,viz,professional,resultadosPlebiscito.png,http://johnguerra.co/viz/resultadosPlebiscito/,4
+Kickstarter projects,09/15/2016,viz,professional,kickstarter.png,http://bl.ocks.org/john-guerra/38b1c32154905828f019f35a026b7526,3
+Colombia Olympics,08/23/2016,viz,professional,colombiaOlympics.gif,https://bl.ocks.org/john-guerra/653dff16b54df2ad2682c8dd0cfbe27a,3
+Colombia as a Force Layout,07/20/2016,viz,professional,colombiaForce.gif,https://bl.ocks.org/john-guerra/4db5024e00a82f10a2dc,3
+IEEEVIS Publications Network,06/18/2015,viz,professional,visPubNetwork_small.gif,http://johnguerra.co/viz/visPubNetwork/,3
+VIZ Ecology,06/18/2015,slides,professional,vizEcology.png,http://johnguerra.co/viz/visEcology,1
+Used Cars Colombia,05/10/2016,viz,professional,usedCarsColombia.gif,http://johnguerra.co/viz/bigDataQuest/#/insightcars,2
+NetViz Lessons learned,06/18/2015,slides,professional,netvizLessons_small.gif,http://johnguerra.co/viz/visEcology,4
+OpenVis 2017 Talk,04/24/2017,video,professional,openvisConf.png,https://openvisconf.com/#jgomez-video-item,4

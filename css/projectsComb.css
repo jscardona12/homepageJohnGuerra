@@ -1,0 +1,16 @@
+#projectsComb {
+	width: 100%;
+}
+
+#projectsComb .mesh {
+  fill:none;
+  stroke: white;
+  stroke-width: 1.5;
+}
+#projectsComb #hexClip {
+  fill:black;
+}
+#projectsComb circle {
+  fill:none;
+  stroke:steelblue;
+}
