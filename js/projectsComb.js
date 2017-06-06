@@ -28,10 +28,10 @@
   };
 
   var width = 850;
-  var height = 850;
+  var height = 950;
 
   //The number of columns and rows of the heatmap
-  var MapColumns = 6,
+  var MapColumns = 4,
     MapRows; // I'll compute this later
 
 
@@ -61,8 +61,8 @@
   function updateComb(data) {
     // updateComb radius
     var svgNode = d3.select("#projectsComb").node();
-    width = svgNode.clientWidth ? svgNode.clientWidth : width;
-    height = d3.select("#achievementsText").node().clientHeight ? d3.select("#achievementsText").node().clientHeight: height;
+    width = svgNode ? svgNode.clientWidth : width;
+    height = d3.select("#achievementsText").node() ? d3.select("#achievementsText").node().clientHeight: height;
     var hexRadius = width/((MapColumns + 0.5) * Math.sqrt(3));
     MapRows = Math.floor((height)/(1.5*hexRadius))+1;
     //Set the new height and width of the SVG based on the max possible

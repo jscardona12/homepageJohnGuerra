@@ -14,3 +14,9 @@
   fill:none;
   stroke:steelblue;
 }
+
+#projectsComb svg {
+	-webkit-box-shadow: 0px 0px 109px -10px #bdbdbd;
+    -moz-box-shadow: 0px 0px 109px -10px #bdbdbd;
+  box-shadow: 0px 0px 109px -10px #bdbdbd;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Helvetica;
+    }
+    .year {
+      margin-right: 5px;
+    }
+    .paper {
+      margin: 5px;
+    }
+    .authors, .venue {
+      margin-left:2.5em;
+    }
+  </style>
+</head>
+<body>
+<div id="papers"></div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+/* global d3 */
+var container = d3.select("#papers");
+var timeFmt = d3.timeParse("%m/%d/%Y");
+
+d3.json("papers.json", function (err, papers) {
+  if (err) throw err;
+
+  papers.forEach(function (d) {
+    d.date = timeFmt(d.date);
+    d.authors = d.authors.replace("John Alexis Guerra-Gomez", "<strong>John Alexis Guerra-Gomez</strong>")
+  });
+  var hideCategories=["presentation"];
+  var filteredPapers = papers.filter(function (d) { return hideCategories.indexOf(d.type)===-1; });
+
+  var nestedPapers = d3.nest()
+    .key(function(d) { return d.category; })
+    .sortValues(function(a, b) { return d3.descending(a.date, b.date); })
+    .entries(filteredPapers);
+
+  var papersSel = container.selectAll(".category")
+    .data(nestedPapers);
+
+  var catSel = papersSel.enter()
+    .append("div")
+    .attr("class", "category");
+
+  catSel.append("h3")
+    .text(function (d) { return d.key; });
+
+  var paperSel = catSel
+    .selectAll(".paper")
+    .data(function (d) { return d.values; })
+    .enter()
+    .append("div")
+    .attr("class", "paper");
+
+  paperSel.append("span")
+    .attr("class", "year")
+    .text(function (d) { return d.year; });
+
+  paperSel.append("a")
+    .attr("class", "title")
+    .attr("href", function (d) { return d.link; })
+    .text(function (d) { return d.title; });
+
+  paperSel.append("div")
+    .attr("class", "authors")
+    .html(function (d) { return d.authors; });
+
+  paperSel.append("div")
+    .attr("class", "venue")
+    .text(function (d) { return d.venue; });
+
+  paperSel.append("div")
+    .attr("class", "type")
+    .text(function (d) { return d.type; });
+});
+
+</script>
+
+</body>
+</html>
