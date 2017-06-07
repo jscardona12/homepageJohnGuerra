@@ -67,6 +67,7 @@ h2 {
 	width: 95%;
 	min-width: 80px;
 	max-width: 150px;
+  padding-right: 10px;
 }
 
 .project {
