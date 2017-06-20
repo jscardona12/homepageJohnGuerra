@@ -1,6 +1,8 @@
-.body {
+body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:12pt;
+	/* Forces phantom js to use background color on pdf */
+  -webkit-print-color-adjust: exact;
 }
 .content {
 	padding-top: 20px;

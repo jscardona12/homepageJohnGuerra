@@ -2,7 +2,8 @@
   /* global d3 */
   var svg = d3.select("#timeline"),
     margin = {top: 20, right: 20, bottom: 40, left: 20},
-    width = (svg.node().width.baseVal.value||900) - margin.left - margin.right,
+    // width = (svg.node().width.baseVal.value||900) - margin.left - margin.right,
+    width = (900) - margin.left - margin.right,
     height = +svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
   var gData = g.append("g")
@@ -41,7 +42,14 @@
 
   function update(data) {
 
-    width = (svg.node().width.baseVal.value||900) - margin.left - margin.right;
+    try {
+      width = (d3.select("#timeline").node().getBoundingClientRect().width||900) - margin.left - margin.right;
+    }
+    catch (e) {
+      width = (900) - margin.left - margin.right;
+    }
+
+
 
     x.domain([d3.min(data, function (d) { return d.Start; }),
       d3.max(data, function (d) { return d.End; })

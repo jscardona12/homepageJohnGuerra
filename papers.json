@@ -16,8 +16,8 @@
 	"link":"papers/MMSYS2017-ADE2016-Dataset.pdf",
 	"title":"CWI-ADE2016 Dataset: Sensing nightclubs through 40 million BLE packets",
 	"venue":"in Proceedings of the ACM Multimedia Systems Conference (ACM MMsys 2017), Taiwan",
-	"date":"June 20-23 2017",
-	"dateStr":"06/20/2017",
+	"dateStr":"June 20-23 2017",
+	"date":"06/20/2017",
 	"type":"Conference",
 	"category":"Visualization"
 },
@@ -354,7 +354,8 @@
 {
 	"year":"2012",
 	"type":"Software",
-	"authors":"John Alexis Guerra-Gomez, Maria Fernanda Zuniga Zabala, Felipe Restrepo Calle, Jose Alfredo Jaramillo Villegas",
+	"link":"papers/Registro_IRIS_v1.pdf",
+	"authors":"John Alexis Guerra-Gomez, Felipe Restrepo Calle",
 	"title": "IRIS version 1.0, Main author Colombian Software Registration 13-34-484",
 	"venue":"Superintendencia de Industria y Comercio",
 	"date": "10/09/2012",
@@ -364,7 +365,8 @@
 {
 	"year":"2011",
 	"type":"Software",
-	"authors":"John Alexis Guerra-Gomez, Maria Fernanda Zuniga Zabala, Felipe Restrepo Calle, Jose Alfredo Jaramillo Villegas",
+	"link":"Registro_IRIS_v3.pdf",
+	"authors":"John Alexis Guerra-Gomez, Juan Pablo Valois",
 	"title": "IRIS version 3.0, Colombian Software Registration 13-28-205",
 	"venue":"Superintendencia de Industria y Comercio",
 	"date": "03/02/2011",
@@ -410,5 +412,26 @@
 	"date":"04/05/2011",
 	"dateFmt": "Apr 2011",
 	"category": "Accesibility"
+},
+{
+	"year":"2009",
+	"type":"Tech Report",
+	"link":"AudioSavant.pdf",
+	"authors":"Mark Daly, John Alexis Guerra-Gomez,John Locke,Megan Monroe",
+	"title": "AudioSavant: Exploring Musical Structure Through Visual Interaction",
+	"date":"12/01/2009",
+	"dateFmt": "Dic 2009",
+	"category": "Visualization"
+},
+{
+	"year":"2017",
+	"type":"Workshop",
+	"link":"Kangaroo_fundation_viz.pdf",
+	"authors":"Deisy J. Díaz, Julieta Villegas, John Alexis Guerra-Gomez, Nathalie Charpak, José Tiberio Hernádez",
+	"title": "Visual Tools for the Exploration of Growth Data in a cohort of Kangaroo Infants during their first year of life",
+	"venue":"Proceedings of the 2017 Workshop on Visual Analytics in Healthcare (VAHC 2017)",
+	"date":"10/01/2017",
+	"dateFmt": "Oct 2017",
+	"category": "Visualization"
 }
 ]

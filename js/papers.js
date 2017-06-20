@@ -13,11 +13,11 @@ d3.json("papers.json", function (err, papers) {
   });
   var hideCategories=["Presentation", "Tech Report","Software", "Trademark"];
   var filteredPapers = papers.filter(function (d) { return hideCategories.indexOf(d.type)===-1; });
-
+  var sortByDate = function(a, b) { return d3.descending(a.date, b.date); };
   var nestedPapers = d3.nest()
     .key(function(d) { return d.category; })
-    .sortValues(function(a, b) { return d3.descending(a.date, b.date); })
-    .entries(filteredPapers);
+    .sortValues(sortByDate)
+    .entries(filteredPapers.sort(sortByDate));
 
   container.append("h2")
     .text("Publications" + " (" + filteredPapers.length + ")");

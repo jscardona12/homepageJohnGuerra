@@ -127,8 +127,8 @@
       .attr("class", "projectHex")
       .merge(projectsSel)
       .filter(function (d) { return d.proj; })
-      .attr("xlink:href", function (d) { return "./img/projs/"+ d.proj.thumb; })
-      // .attr("width", (hexRadius*2))
+      .attr("xlink:href", function (d) { return "img/projs/"+ d.proj.thumb; })
+      .attr("width", (hexRadius*2))
       .attr("height", (hexRadius*2))
       .attr("clip-path", "url(#hexClip)")
 
