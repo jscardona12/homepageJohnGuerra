@@ -1,6 +1,6 @@
 // Code inspired on VisualCinamon http://blockbuilder.org/john-guerra/e5d5fbb6c526000599d2c83639f6ade0
 (function Comb() {
-  /* global d3 */
+  /* global d3, CombColumns */
   //Function to call when you mouseover a node
   function mover(d) {
     var el = d3.select(this)
@@ -31,7 +31,7 @@
   var height = 950;
 
   //The number of columns and rows of the heatmap
-  var MapColumns = 4,
+  var MapColumns = window.CombColumns || 4,
     MapRows; // I'll compute this later
 
 
@@ -131,6 +131,9 @@
       .attr("width", (hexRadius*2))
       .attr("height", (hexRadius*2))
       .attr("clip-path", "url(#hexClip)")
+      .on("click", function (d) {
+        window.open(d.proj.url, "_blank");
+      })
 
       .attr("transform", function (d) {
         return "translate(" + d.x + "," + d.y + ")";

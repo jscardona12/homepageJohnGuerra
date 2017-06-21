@@ -1,34 +1,34 @@
 project,date,categories,type,thumb,url,rating
 bens_network,08/01/2009,treeViz,research,Ben'sFlickr_thumb.png,http://johnguerra.co,2
-btactile,01/01/2016,treeViz,research,BTactile_screenshot_small.png,http://johnguerra.co,5
-flickrstats,10/01/2015,treeViz,research,flickrstats.png,http://johnguerra.co,5
-flickrstats Mobile,11/01/2015,treeViz,research,flickrstats_mobile.png,http://johnguerra.co,5
-forceinabox,12/01/2014,treeViz,research,forceInABoxv4.gif,http://johnguerra.co,5
-iris,12/04/2004,treeViz,research,IRIS.jpg,http://johnguerra.co,5
-lifeflow,12/01/2014,treeViz,research,lifeflow_thumb.png,http://johnguerra.co,5
-network_explorer,12/01/2014,treeViz,research,network_explorer.png,http://johnguerra.co,5
+btactile,01/01/2016,treeViz,research,BTactile_screenshot_small.png,http://btactile.com/,5
+flickrstats,10/01/2015,treeViz,research,flickrstats.png,https://www.flickr.com/stats,5
+flickrstats Mobile,11/01/2015,treeViz,research,flickrstats_mobile.png,https://www.flickr.com/stats,5
+forceinabox,12/01/2014,treeViz,research,forceInABoxv4.gif,bl.ocks.org/john-guerra/830e536314436e2c6396484bcc1e3b3d,5
+iris,12/04/2004,treeViz,research,IRIS.jpg,http://duto.org/,5
+lifeflow,12/01/2014,treeViz,research,lifeflow_thumb.png,http://www.cs.umd.edu/hcil/lifeflow/,5
+network_explorer,12/01/2014,treeViz,research,network_explorer.png,http://johnguerra.co/viz/networkExplorer,5
 phototreemap,06/01/2015,treeViz,research,phototreemap.png,http://johnguerra.co,5
 photoranking,01/01/2013,treeViz,research,photo_ranking.png,http://johnguerra.co,5
 steamgraph,01/01/2013,treeViz,research,Timeline_Steamchart.png,http://johnguerra.co,5
-tradeflow,05/01/2012,treeViz,research,tradeflow_thumb.png,http://johnguerra.co,1
-treeversity,12/01/2011,treeViz,research,treeversityv1.png,http://johnguerra.co,5
-treeversity2,12/01/2012,treeViz,research,treeversity_v2.png,http://johnguerra.co,5
-tweetometro,04/01/2014,treeViz,research,tweetometro.png,http://johnguerra.co,5
-wholikesmyfb,01/01/2014,treeViz,research,wholikesmyfb.png,http://johnguerra.co,2
+tradeflow,05/01/2012,treeViz,research,tradeflow_thumb.png,http://johnguerra.co/viz/tradeFlow/flow/flow.html,1
+treeversity,12/01/2011,treeViz,research,treeversityv1.png,http://www.cs.umd.edu/hcil/treeversity/,5
+treeversity2,12/01/2012,treeViz,research,treeversity_v2.png,http://treeversity.cattlab.umd.edu,5
+tweetometro,04/01/2014,treeViz,research,tweetometro.png,http://tweetometro.co,5
+wholikesmyfb,01/01/2014,treeViz,research,wholikesmyfb.png,http://wholikesmyfb.com/,2
 Wingz,01/01/2015,treeViz,professional,wingz.png,http://johnguerra.co,3
 Photo Ring,10/01/2015,treeViz,professional,photoRing.png,http://johnguerra.co,5
 Photo Ranking,08/01/2015,treeViz,professional,photo_ranking.png,http://johnguerra.co,5
 MySocialTree,07/01/2013,treeViz,professional,mysocialtree_thumb.png,http://johnguerra.co,1
-Imports and exports,08/01/2011,treeViz,professional,import_export_map_thumb.png,http://johnguerra.co,1
+Imports and exports,08/01/2011,treeViz,professional,import_export_map_thumb.png,http://infovis.co/tradeFlow/map/map.html,1
 Flickr Popular,04/01/2015,treeViz,professional,FlickrPopular.png,http://johnguerra.co,5
 Flickr Posting times,10/01/2015,treeViz,professional,christmass.png,http://johnguerra.co,5
-Twitter Robots,04/01/2013,treeViz,professional,all_tweets_May_25_2014.png,http://johnguerra.co,3
-Twitter Influentials,04/01/2016,treeViz,professional,influentials_chi2017.gif,http://johnguerra.co,5
-Colombian Soccer Results,04/15/2017,treeViz,professional,resultadosFutbolColombiano.gif,http://johnguerra.co,3
-World Cup Eliminatory,04/01/2017,treeViz,professional,eliminatoria_mundial.gif,http://johnguerra.co,4
-Untangling the network,04/23/2017,treeViz,professional,untanglingTheNetwork.gif,http://johnguerra.co,5
-DC.js Tutorial,03/01/2017,treeViz,professional,dcjs_demo.gif,http://johnguerra.co,1
-AutoAlbum,04/01/2016,treeViz,professional,autoalbum.gif,http://johnguerra.co,1
+Twitter Robots,04/01/2013,treeViz,professional,all_tweets_May_25_2014.png,http://tweetometro.co/robots_May25.html,3
+Twitter Influentials,04/01/2016,treeViz,professional,influentials_chi2017.gif,http://johnguerra.co/viz/influentials/chi2017/,5
+Colombian Soccer Results,04/15/2017,treeViz,professional,resultadosFutbolColombiano.gif,http://johnguerra.co/viz/resultadosFutbolColombiano,3
+World Cup Eliminatory,04/01/2017,treeViz,professional,eliminatoria_mundial.gif,http://johnguerra.co/viz/eliminatoriaMundial,4
+Untangling the network,04/23/2017,treeViz,professional,untanglingTheNetwork.gif,http://johnguerra.co/slides/untanglingTheHairball/#/,5
+DC.js Tutorial,03/01/2017,treeViz,professional,dcjs_demo.gif,https://www.youtube.com/watch?v=8TBh5ghRZrI,1
+AutoAlbum,04/01/2016,treeViz,professional,autoalbum.gif,https://github.com/john-guerra/autoPhotoOrganizer,1
 Blo.cks with force in a Box,05/08/2017,netViz,professional,blocks_forceinabox.gif,http://bl.ocks.org/john-guerra/fb39ff1e5d73fdb85cc13935e3eb8f1d,2
 LikertScales in d3,03/20/2017,viz,professional,likert.png,https://bl.ocks.org/john-guerra/57d31bae7685139cecd731bba9f48090,2
 Colored Weavy Treemaps,01/20/2017,viz,professional,weavytreemap.png,https://bl.ocks.org/john-guerra/7031ce041cb07a4053d56059a5d67005,1
@@ -43,4 +43,3 @@ Used Cars Colombia,05/10/2016,viz,professional,usedCarsColombia.gif,http://johng
 NetViz Lessons learned,06/18/2015,slides,professional,netVizLessons_small.gif,http://johnguerra.co/viz/visEcology,4
 OpenVis 2017 Talk,04/24/2017,video,professional,openvisConf.png,https://openvisconf.com/#jgomez-video-item,4
 GradesViz,12/16/2016,video,professional,GradesViz.png,http://johnguerra.co/viz/gradesViz/,3
-
