@@ -8,6 +8,7 @@
 	"date":"07/01/2017",
 	"dateStr":"July 2017",
 	"type":"Conference",
+	"ISSN-potential": "0949149X",
 	"category":"Visualization"
 },
 {
@@ -19,6 +20,9 @@
 	"dateStr":"June 20-23 2017",
 	"date":"06/20/2017",
 	"type":"Conference",
+	"ISSN":"1947-4598",
+	"ISBN":"978-1-4503-5002-0",
+	"doi":"https://doi.org/10.1145/3083187.3083213",
 	"category":"Visualization"
 },
 {
@@ -52,6 +56,8 @@
 	"venue":"In Proceedings of the International Working Conference on Advanced Visual Interfaces (AVI '16), Paolo Buono, Rosa Lanzilotti, and Maristella Matera (Eds.). ACM, New York, NY, USA, 60-63",
 	"date":"07/01/2016",
 	"dateStr":"July 2016",
+	"ISBN":"978-1-4503-4131-8",
+	"ISSN":"0302-9743",
 	"type":"Conference",
 	"category":"Photo Visualization"
 },
@@ -89,6 +95,7 @@
 	"date":"05/07/2016",
 	"dateStr":"May 2016",
 	"type":"Conference",
+	"ISBN":"978-1-4503-3362-7",
 	"category":"Photo Visualization"
 },
 {
@@ -185,6 +192,7 @@
 	"date":"01/25/2013",
 	"dateStr":"Jan 2013",
 	"type":"Conference",
+	"ISSN":"0361-1981",
 	"category":"Tree Visualization"
 },
 {
@@ -229,7 +237,7 @@
 	"venue":"HCIL Technical Report",
 	"date":"12/01/2011",
 	"dateStr":"Dec 2011",
-	"type":"Conference",
+	"type":"Tech Report",
 	"category":"Tree Visualization",
 	"tags":["Tree Visualization","Social Networks","Facebook"]
 },
@@ -311,6 +319,7 @@
 	"dateStr":"Dic 2007",
 	"type":"Magazine",
 	"ISSN":"0122-1701",
+	"DOI":"http://dx.doi.org/10.22517/23447214.4129",
 	"category":"Other"
 },
 {
@@ -377,10 +386,11 @@
 	"year":"2007",
 	"type":"Patent",
 	"authors":"Maria Fernanda Zuniga Zabala, John Alexis Guerra-Gomez, Felipe Restrepo Calle, Jose Alfredo Jaramillo Villegas",
-	"title": "System for the perception of images through touch (Abandoned)",
+	"title": "System for the perception of images through touch",
 	"venue":"USA Patent application number 20080174566",
 	"date":"04/01/2006",
 	"dateFmt": "Apr 2006",
+	"link":"https://patents.google.com/patent/US20080174566A1",
 	"category": "Accesibility"
 },
 {
@@ -432,6 +442,17 @@
 	"venue":"Proceedings of the 2017 Workshop on Visual Analytics in Healthcare (VAHC 2017)",
 	"date":"10/01/2017",
 	"dateFmt": "Oct 2017",
+	"category": "Visualization"
+},
+{
+	"year":"2015",
+	"type":"Patent",
+	"authors":"Frank Richard Bentley, Joseph Nathaniel Kaye, David Ayman Shamma, John Alexis Guerra-Gomez",
+	"title": "Methods and systems for determining query date ranges",
+	"venue":"US Patent Application, US20170024388A1",
+	"date":"21/07/2015",
+	"link":"https://patents.google.com/patent/US20170024388A1/en",
+	"dateFmt": "July 2015",
 	"category": "Visualization"
 }
 ]
