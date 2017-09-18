@@ -30,7 +30,7 @@ function update(data) {
     })
       .enter()
         .append("div")
-          .attr("class", "col-sm-2 project");
+          .attr("class", "col-sm-3 project");
 
   // projs
   //   .append("div")
@@ -54,7 +54,15 @@ function update(data) {
 
   desc.append("a")
     .attr("href" , function (d) { return d["URL de su página personal"];})
-    .text(function (d) { return d["Nombres "] + " " + d["Apellidos"] });
+    .text(function (d) { return d["Nombres "] + " " + d["Apellidos"]; });
+
+  desc.filter(function (d) {
+    return d["Código 2"]!==d["Código"];
+  })
+    .append("a")
+    .attr("href" , function (d) { return d["URL de su página personal 2"];})
+    .text(function (d) { return d["Nombres 2"] + " " + d["Apellidos 2"]; });
+
   desc.append("p")
     .text(function (d) { return d["Nombre del proyecto"]; });
 
@@ -104,10 +112,10 @@ function update(data) {
     .text("Video");
 
   desc2
-    .filter(function (d) { return d["URL de la presentación en google slides (Opcional)"]; })
+    .filter(function (d) { return d["URL de la presentación en google slides"]; })
     .append("a")
     .attr("class", "")
-    .attr("href", function (d) { return d["URL de la presentación en google slides (Opcional)"]; })
+    .attr("href", function (d) { return d["URL de la presentación en google slides"]; })
     .attr("target", "_blank")
     .text("Slides");
 
@@ -115,7 +123,12 @@ function update(data) {
 }
 function preProcess(data) {
   var dictStudentProj = {};
-  data.reverse().forEach(function (d) {
+  console.log("Received " + data.length);
+  data.sort(function (a, b) {
+    return d3.ascending(a["Marca temporal"],
+      b["Marca temporal"]);
+  })
+  .forEach(function (d) {
     dictStudentProj[d["Proyecto"]+d["Código"]]=d;
   });
   return d3.values(dictStudentProj);
