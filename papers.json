@@ -8,7 +8,9 @@
 	"date":"07/01/2017",
 	"dateStr":"July 2017",
 	"type":"Conference",
-	"ISSN-potential": "0949149X",
+	"ranking": ["Publindex C"],
+	"ISSN": "2446-3833",
+	"ISBN":	"978-87-7112-637-2",
 	"category":"Visualization"
 },
 {
@@ -23,6 +25,7 @@
 	"ISSN":"1947-4598",
 	"ISBN":"978-1-4503-5002-0",
 	"doi":"https://doi.org/10.1145/3083187.3083213",
+	"ranking":[],
 	"category":"Visualization"
 },
 {
@@ -34,6 +37,7 @@
 	"date":"03/01/2017",
 	"dateStr":"March 2017",
 	"type":"Conference",
+	"ranking":[],
 	"category":"Accesibility"
 },
 {
@@ -45,6 +49,7 @@
 	"date":"10/24/2016",
 	"dateStr":"Oct 2016",
 	"type":"Workshop",
+	"ranking": ["Core A*","Scopus Q3"],
 	"category":"Network Visualization"
 },
 {
@@ -59,6 +64,7 @@
 	"ISBN":"978-1-4503-4131-8",
 	"ISSN":"0302-9743",
 	"type":"Conference",
+	"ranking": ["Core B"],
 	"category":"Photo Visualization"
 },
 {
@@ -71,6 +77,7 @@
 	"date":"07/01/2016",
 	"dateStr":"July 2016",
 	"type":"Conference",
+	"ranking": ["Core B"],
 	"category":"Network Visualization"
 },
 {
@@ -83,6 +90,7 @@
 	"date":"05/07/2016",
 	"dateStr":"May 2016",
 	"type":"Conference",
+	"ranking": ["Core A*","Scopus Q3"],
 	"category":"Photo Visualization"
 },
 {
@@ -96,6 +104,7 @@
 	"dateStr":"May 2016",
 	"type":"Conference",
 	"ISBN":"978-1-4503-3362-7",
+	"ranking": ["Core A*","Scopus Q3"],
 	"category":"Photo Visualization"
 },
 {
@@ -120,6 +129,7 @@
 	"date": "01/01/2015",
 	"dateStr":"Jan 2015",
 	"type":"Journal",
+	"ranking":["Scopus Q3"],
 	"category":"Tree Visualization"
 },
 {
@@ -144,6 +154,7 @@
 	"ISBN" : "978-1-57735-698-1",
 	"dateStr":"Jan 2015",
 	"type":"Conference",
+	"ranking": ["Core A*"],
 	"category":"Network Visualization"
 },
 {
@@ -156,6 +167,7 @@
 	"ISSN" : "0738-4602",
 	"dateStr":"Jun 2016",
 	"type" : "Journal",
+	"ranking":["Scopus Q2"],
 	"category":"Network Visualization"
 },
 {
@@ -167,7 +179,9 @@
 	"doi":"doi:10.1109/TVCG.2013.231",
 	"date":"10/13/2013",
 	"dateStr":"Oct 2013",
+	"ISSN": "1077-2626",
 	"type":"Conference",
+	"ranking": ["Scopus Q3","Core A*"],
 	"category":"Tree Visualization"
 },
 {
@@ -193,6 +207,7 @@
 	"dateStr":"Jan 2013",
 	"type":"Conference",
 	"ISSN":"0361-1981",
+	"ranking":["ERA2010 A"],
 	"category":"Tree Visualization"
 },
 {
@@ -205,6 +220,7 @@
 	"dateStr": "July 2012",
 	"ISBN":"978-616-551-574-0",
 	"type":"Conference",
+	"ranking":["ERA2010 B"],
 	"category":"Tree Visualization"
 },
 {
@@ -215,7 +231,10 @@
 	"venue":"In Proceedings of the 2011 Annual Conference on Human Factors in Computing Systems (CHI'11), 1747-1756",
 	"date":"05/07/2011",
 	"dateStr":"May 2011",
+	"ISBN": "978-1-4503-0228-9",
 	"type":"Conference",
+	"doi":"https://doi.org/10.1145/1978942.1979196",
+	"ranking": ["Core A*","Scopus Q3"],
 	"category":"Time Visualization"
 },
 {
@@ -263,6 +282,7 @@
 	"date":"10/01/2011",
 	"dateStr":"Oct 2011",
 	"category":"Tree Visualization",
+	"ranking": ["Core A*","Scopus Q3"],
 	"type":"Conference"
 },
 {
@@ -307,6 +327,7 @@
 	"date": "01/25/2011",
 	"dateStr":"Jan 2011",
 	"type":"Conference",
+	"ranking":["ERA2010 A"],
 	"category":"Time Visualization"
 },
 {
@@ -441,6 +462,7 @@
 	"title": "Visual Tools for the Exploration of Growth Data in a cohort of Kangaroo Infants during their first year of life",
 	"venue":"Proceedings of the 2017 Workshop on Visual Analytics in Healthcare (VAHC 2017)",
 	"date":"10/01/2017",
+	"ranking": ["Core A*","Scopus Q3"],
 	"dateFmt": "Oct 2017",
 	"category": "Visualization"
 },

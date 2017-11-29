@@ -7,11 +7,10 @@ function update(data) {
   console.log(data.length);
   var nested_data = d3.nest()
     .key(function (d) { return d["Proyecto"];})
-      .sortKeys(function (a, b) {
-        return
-            d3.ascending(a, b);
-      })
-    .entries(data);
+    .entries(data)
+    .sort(function (a, b) {
+      return d3.ascending(a.key, b.key);
+    });
 
   var topics = container.selectAll(".topic")
     .data(nested_data)
@@ -52,14 +51,14 @@ function update(data) {
     .attr("class", "description col-sm-12");
 
 
-  desc.append("a")
+  desc.append("div").append("a")
     .attr("href" , function (d) { return d["URL de su página personal"];})
     .text(function (d) { return d["Nombres "] + " " + d["Apellidos"]; });
 
   desc.filter(function (d) {
     return d["Código 2"]!==d["Código"];
   })
-    .append("a")
+    .append("div").append("a")
     .attr("href" , function (d) { return d["URL de su página personal 2"];})
     .text(function (d) { return d["Nombres 2"] + " " + d["Apellidos 2"]; });
 
