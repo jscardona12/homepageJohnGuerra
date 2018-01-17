@@ -8,10 +8,79 @@ html
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(href="css/bootstrap.css" rel="stylesheet")
+    link(href="css/main.css" rel="stylesheet")
 body
   div.content.container-fluid
       div.row
         div.col-md-1.col-sm-1
 
         div.col-md-8.col-sm-12
-          h1 Network Visualization Research
+          h1 Photo visualization Research
+          a(href="http://johnguerra.co") Back to the homepage
+
+          p Photo visualization is an old concept that has been somehow stagnated on the research world. In the past there were many interesting developments on the field, such as #[a(href="http://www.cs.umd.edu/hcil/photolib/") Photofinder] and #[a(href="http://www.cs.umd.edu/hcil/photomesa/") PhotoMesa]. However, most of the interfaces used by the big companies rely only on infinite scroll
+
+          p With this work I'm exploring alternative ways of summarizing and navigating large datasets of photos. My work is divided in three main concepts:
+
+          h2 Photo-Treemaps
+
+          p Summarizing collections of photos with adjacent numerical information (such as view or faves counts).
+
+          h3 Examples
+
+          div.row
+            div.col-md-4
+              a(href="http://wholikesmyfb.com") 
+                img.project(src="../img/wholikesmyfb.png" alt="Who likes my Facebook screenshot")
+            div.col-md-8 
+              h4 
+                a(href="http://wholikesmyfb.com") WholikesmyFB.com
+              div An app that shows you who are your most loyal friends on Facebook
+          br
+          div.row
+            div.col-md-4
+              a(href="http://johnguerra.co/viz/flickrBest2015") 
+                img.project(src="../img/projs/flickrBest2015.gif" alt="Flickr Best 2015 screenshot")
+            div.col-md-8 
+              h4 
+                a(href="http://wholikesmyfb.com") Zoomable phototreemap
+              div A phototreemap for categorization, it groups photos by categories in a nice and zoomable hierarhical interface
+          br
+          div.row
+            div.col-md-4
+              a(href="http://johnguerra.co/slides/aviPhototreemap/#/title")
+                img.project(src="../img/projs/aviPhototreemap.png" alt="AVI PhotoTreemap slides screenshot")
+            div.col-md-8 
+              h4 
+                a(href="http://johnguerra.co/slides/aviPhototreemap/#/title") What works and what doesn't on a phototreemap
+              a(href="../papers/avi-treemaps_camera_ready.pdf") Paper
+              div An 2016 AVI paper exploring what works and what doesn't when creating phototreemaps
+          br
+          div.row
+            div.col-md-4
+              a(href="http://johnguerra.co/slides/beyondPhotoStream/")
+                img.project(src="../img/projs/beyondThePhotoStream.png" alt="Beyoend the photostream")
+            div.col-md-8 
+              h4 
+                a(href="http://johnguerra.co/slides/beyondPhotoStream/") Beyond the photostream
+              div A talk I gave presenting the need for newer photo UIs
+
+          h2 Navigating large sets of photos
+
+          p Infinite scroll works well for dozens of images, but what if you need to explore a large repository with thousands or even millions of photos? I have been working on some techniques for navigating large datasets that are yet to be published
+
+          div.row
+            div.col-md-4
+              img.project(src="../img/projs/photoRing.png" alt="Photoring screenshot")
+            div.col-md-8 
+              h4 PhotoRing
+              div A novel interface for multidimensional navigation of large photo repositories. Work in progress
+
+  script.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-72531610-1', 'auto');
+      ga('send', 'pageview');

@@ -42,90 +42,76 @@
       </div>
       <div class="col-md-12 col-sm-12">
         <div id="projects"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <h3>Presentations</h3>
-        <h4>Schedule</h4><table>
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h3>Presentations</h3>
+            <h4>Schedule</h4><table>
 <thead>
 <tr>
 <th>Time</th>
-<th>Group</th>
 <th>Project</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>6:00 PM</td>
-<td></td>
 <td>Introduction</td>
 </tr>
 <tr>
-<td>6:13 PM</td>
-<td>3</td>
-<td>Visualization of market data BVC</td>
+<td>6:12 PM</td>
+<td>Public expenditure in Colombia</td>
 </tr>
 <tr>
-<td>6:26 PM</td>
-<td>7</td>
-<td>Tools to Enjoy the Election Data From Colombia Since 1958</td>
+<td>6:24 PM</td>
+<td>Free Housing and Social Interest Project</td>
 </tr>
 <tr>
-<td>6:39 PM</td>
-<td>2</td>
-<td>Colombian Cinema</td>
+<td>6:36 PM</td>
+<td>Surgical Reoperations in Military Central Hospital of Bogota</td>
 </tr>
 <tr>
-<td>6:52 PM</td>
-<td>5</td>
-<td>Dashboard de Desempeño y Actividades para el control y seguimiento de los Proyectos.</td>
+<td>6:48 PM</td>
+<td>Traffic tickets vs Car crashes</td>
 </tr>
 <tr>
-<td>7:05 PM</td>
-<td>6</td>
-<td>Web Analytics Visualization</td>
+<td>7:00 PM</td>
+<td>Who dominates the Council of Bogotá and how?</td>
 </tr>
 <tr>
-<td>7:18 PM</td>
-<td>10</td>
-<td>Visual Analysis of the Satisfaction Survey (ESAT)</td>
+<td>7:12 PM</td>
+<td>Deforestation in Colombia</td>
 </tr>
 <tr>
-<td>7:31 PM</td>
-<td></td>
-<td>Break</td>
+<td>7:36 PM</td>
+<td>Coffee Break</td>
 </tr>
 <tr>
-<td>7:50 PM</td>
-<td>4</td>
-<td>Visualization for public transport data in Bahía Blanca, Argentina</td>
+<td>7:48 PM</td>
+<td>Bogota Schools Environments</td>
 </tr>
 <tr>
-<td>8:03 PM</td>
-<td>9</td>
-<td>Incident Managment: Recaudo Bogotá</td>
+<td>8:00 PM</td>
+<td>Colombian Presidential Elections 2018</td>
 </tr>
 <tr>
-<td>7:50 PM</td>
-<td>1</td>
-<td>Visualization of world happiness report: an interactive approach.</td>
+<td>8:12 PM</td>
+<td>Fulbright Scholarships in Colombia</td>
 </tr>
 <tr>
-<td>8:03 PM</td>
-<td>8</td>
-<td>TrackCA</td>
+<td>8:24 PM</td>
+<td>Cell Phones Theft in the city of Bogotá, Colombia</td>
 </tr>
 <tr>
 <td>8:36 PM</td>
-<td>11</td>
-<td>Visual Analytics aplicated to growth of preterm infants in his first year of life</td>
+<td>Colombian stock market visualization</td>
 </tr>
 </tbody>
 </table>
 
+          </div>
+        </div>
         <h4>Streaming/Video</h4><span>
-          <iframe width="853" height="480" src="https://www.youtube.com/embed/Yh-dPmrO_NM?rel=0" frameborder="0" allowfullscreen></iframe>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/Ke8EP5fnbno" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           
           </span>
         <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -133,7 +119,7 @@
         <script src="../../js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./tabletop.js"></script>
         <script>
-          var urlHtml = "1XU5AzI2BrtmtWgbnAKhO9WbCu6LhAtzyOzGBcKpQxnI";
+          var urlHtml = "17RZrKKR_TlioXOwY60MS1fcagAkxpXev32d9PqOzJTw";
           var container = d3.select("#projects");
           
           
@@ -145,7 +131,7 @@
             //- </div>
             //- <div class="panel-body">
             var nested_data = d3.nest()
-              .key(function (d) { return d["Tipo"]; })
+              .key(function (d) { return d["Project Category"]; })
                 .sortKeys(function (a, b) {
                   return a === "Others" ?
                     1 :
@@ -181,79 +167,86 @@
                 .attr("class", "panel-title")
                 .append("a")
                   .attr("href" , function (d) {
-                    return d["URL repositorio"];
+                    return d["Full URL for the Github repo"];
                   })
                   .attr("target", "_blank")
-                .text(function (d) { return d["Nombre Proyecto"]; });
+                .text(function (d) { return d["Project title"]; });
           
             var body = projs.append("div")
               .attr("class", "panel-body");
             body
               .append("a")
-              .attr("href", function (d) { return d["URL del demo del proyecto"]; })
+              .attr("href", function (d) { return d["Project's demo full url"]; })
                 .attr("target", "_blank")
                 .append("img")
                 .attr("class", "project-thumb")
-                  .attr("src", function (d) { return d["URL de una imagen portada del proyecto"]; });
+                  .attr("src", function (d) { return d["Project's screenshot full url"]; });
             body.append("a")
               .attr("class", "project_url btn btn-sm btn-default")
-              .attr("href", function (d) { return d["URL repositorio"]; })
+              .attr("href", function (d) { return d["Full URL for the Github repo"]; })
               .attr("target", "_blank")
               .text("GitHub");
             body.append("a")
               .attr("class", "project_demo btn btn-sm btn-primary")
-              .attr("href", function (d) { return d["URL del demo del proyecto"]; })
+              .attr("href", function (d) { return d["Project's demo full url"]; })
               .attr("target", "_blank")
               .text("Demo");
             body.append("a")
               .attr("class", "project_demo btn btn-sm btn-success")
-              .attr("href", function (d) { return d["URL del video"]; })
+              .attr("href", function (d) { return d["Video demo full url"]; })
               .attr("target", "_blank")
               .text("Video");
+          
+            body.append("a")
+              .attr("class", "project_demo btn btn-sm btn-info")
+              .attr("href", function (d) { return d["Slides"]; })
+              .attr("target", "_blank")
+              .text("Slides");
+          
           
           
           
             body.append("h4").text("Description");
             body.append("p")
               .attr("class", "description")
-                .text(function (d) { return d["Párrafo de descripción del proyecto"]; });
+                .text(function (d) { return d["Paragraph describing the project"]; });
           
             body.append("h4").text("Members");
             body.append("div")
               .attr("class", "student")
               .append("a")
-              .attr("href", function (d) { return d["Github o Homepage  Integrante 1"]})
+              .attr("href", function (d) { return d["Student 1 homepage"]})
               .attr("target", "_blank")
-                .text(function (d) { return d["Nombre Integrante 1"]; });
+                .text(function (d) { return d["Student 1 full name"]; });
             body.append("div")
               .attr("class", "student")
               .append("a")
-              .attr("href", function (d) { return d["Github o Homepage  Integrante 2"]})
+              .attr("href", function (d) { return d["Student 2 homepage"]})
               .attr("target", "_blank")
-                .text(function (d) { return d["Nombre Integrante 2"]; });
+                .text(function (d) { return d["Student 2 full name"]; });
             body.append("div")
               .attr("class", "student")
               .append("a")
-              .attr("href", function (d) { return d["Github o Homepage  Integrante 3"]})
+              .attr("href", function (d) { return d["Student 3 homepage"]})
               .attr("target", "_blank")
-                .text(function (d) { return d["Nombre Integrante 3"]; });
+                .text(function (d) { return d["Student 3 full name"]; });
           
           
-            body.append("h5")
-              .text(function (d) { return "Group Number " + d["Número de grupo"]; })
+            //- body.append("h5")
+            //-   .text(function (d) { return "Group Number " + d["Número de grupo"]; })
           }
           
-          function preProcess(data) {
-            var dictGroups = {};
-            data.forEach(function (d) {
-              dictGroups[d["Número de grupo"]]=d;
-            })
-            return d3.values(dictGroups);
-          }
+          //- function preProcess(data) {
+          //-   var dictGroups = {};
+          //-   data.forEach(function (d) {
+          //-     dictGroups[d["Número de grupo"]]=d;
+          //-   })
+          //-   return d3.values(dictGroups);
+          //- }
           
           function updateFromGSheet(data) {
-            var procData = preProcess(data);
-            update(procData);
+            //- var procData = preProcess(data);
+            update(data);
           }
           
           function init() {

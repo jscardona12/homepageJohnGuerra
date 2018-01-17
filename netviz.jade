@@ -3,40 +3,104 @@ html
   head
     title Network Visualization Research: John Alexis Guerra Gómez
     meta(charset="utf-8")
-    meta(name="description" content="Some research on photo visualization from John Alexis Guerra Gómez")
+    meta(name="description" content="Some research on network visualization from John Alexis Guerra Gómez")
     meta(name="author" content="John Alexis Guerra Gomez")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(href="css/bootstrap.css" rel="stylesheet")
+    link(href="css/main.css" rel="stylesheet")
 body
   div.content.container-fluid
-    div.row
-      div.col-md-1.col-sm-1
+      div.row
+        div.col-md-1.col-sm-1
 
-      div.col-md-8.col-sm-12
-        h1 John Alexis Guerra Gómez
+        div.col-md-8.col-sm-12
+          h1  Network Visualization Research: John Alexis Guerra Gómez
+          a(href="http://johnguerra.co") Back to the homepage
 
-    div.row
-      div.col-md-1
-      div.col-md-3
-        img(src="img/foto_JohnGuerra_2015.jpg" style="width:100%")
-      div.col-md-5
-        span(style="font-size:130%")
-          :markdown-it
-            John Alexis is a researcher, an entrepreneur and a dreamer.
+          p Network visualization is one of the most interesting topics of research in the dataviz world. I have been working on this topic since the beginning of my PhD exploring the best practices for visualizing networks.
 
-            He is a **researcher** at [Los Andes University](https://imagine.uniandes.edu.co/) where he investigates novel information visualization techniques for [photos](http://johnguerra.co/photoviz.html), [networks](http://johnguerra.co/netviz.html) and [trees](https://treeversity.cattlab.umd.edu). He is also a lecturer at [UC Berkeley](https://www.ischool.berkeley.edu/people/john-alexis-guerra-gomez).  Previously, he worked at [Yahoo Labs](https://research.yahoo.com/) and [PARC](http://www.parc.com). He studied Information Visualization while pursuing his PhD at the [HCIL](http://hcil.cs.umd.edu) working with [Ben Shneiderman](http://www.cs.umd.edu/~ben/) and [Catherine Plaisant](http://hcil.umd.edu/catherine-plaisant/).
+          div.row
+            div.col-md-4
+              a(href="https://github.com/john-guerra/netClusteringJs") 
+                img.project(src="../img/projs/netClusteringJS.gif" alt="NetClusteringJS")
+            div.col-md-8 
+              h4 
+                a(href="https://github.com/john-guerra/netClusteringJs") NetClusteringJS
+              a(href="https://bl.ocks.org/john-guerra/ecdde32ab4ad91a1a240") Demo
+              div A network clustering library that works on the browser using the #[a(href="https://www.google.com.co/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwje0ZKrvN_YAhUCulMKHWRPCJQQFggoMAA&url=http%3A%2F%2Fece-research.unm.edu%2Fifis%2Fpapers%2Fcommunity-moore.pdf&usg=AOvVaw1D0e-bd1CZYD2jEKzIL3Pw") Clauset, Newman and Moore algorithm].
+          br
+          div.row
+            div.col-md-4
+              a(href="https://github.com/john-guerra/forceInABox") 
+                img.project(src="../img/projs/forceInABoxv4.gif" alt="Force in a Box algorithm")
+            div.col-md-8 
+              h4 
+                a(href="https://github.com/john-guerra/forceInABox") ForceInABox
+              a(href="              https://bl.ocks.org/john-guerra/830e536314436e2c6396484bcc1e3b") Demo
+              div A d3v4.js plugin for distributing nodes on a clustered network, based on the #[a(href="http://ieeexplore.ieee.org/document/6113135/?reload=true") groupInABox] algorithm.
+          br
+          div.row
+            div.col-md-4
+              a(href="http://johnguerra.co/viz/influentials/CHI2017/") 
+                img.project(src="../img/projs/influentials_chi2017.gif" alt="Twitter most influentials")
+            div.col-md-8 
+              h4 
+                a(href="http://johnguerra.co/viz/influentials/CHI2017/") Twitter most influentials
+              div A series of visualizations I created to find who where the most interesting accounts worth following for academic conferences
+          br
+          div.row
+            div.col-md-4
+              a(href="http://johnguerra.co/viz/visPubNetwork/") 
+                img.project(src="../img/projs/visPubNetwork_small.gif" alt="IEEEVIS citation network")
+            div.col-md-8 
+              h4 
+                a(href="http://johnguerra.co/viz/visPubNetwork/") Network visualization of IEEVIS
+              div IEEEVIS Citation network
 
-            As an **entrepreneur**, he co-founded [BTactile a search engine of images for the blind](http://btactile.com); he also [co-created a device to allow blind children to see colors and shapes with their hands](http://duto.co).
+          br
+          div.row
+            div.col-md-4
+              a(href="johnguerra.co/slides/aviNetworkExplorer/") 
+                img.project(src="../img/projs/aviNetworkExplorer.png" alt="netVizLessons")
+            div.col-md-8 
+              h4 
+                a(href="johnguerra.co/slides/aviNetworkExplorer/") AVI2016 Network Explorer
+              div An AVI2016 paper presenting Network Explorer, a tool I built for exploring large networks at #[a(href="http://parc.com") PARC]
 
-            He also likes to **dream** and build applications to generate insights using infovis such as: a [report of the most followed accounts by the online communities of Openvis](http://johnguerra.co/viz/influentials/openvisconf/) and [IEEEVIS](http://johnguerra.co/viz/influentials/ieeevis), a [visualization of the results of the Colombian peace referendum](http://johnguerra.co/viz/resultadosPlebiscito/) (and of the [2016 US elections](http://johnguerra.co/viz/USElections2016/)), a [tool to monitor who likes your Facebook the most](http://wholikesmyfb.com), or a [Twitter monitor for the 2014 Colombian presidential election](http://tweetometro.co) where he [uncovered more than 500 fake accounts](http://tweetometro.co/robots_May25.html). He has also created open source libraries for [in-browser network clustering](https://github.com/john-guerra/netClusteringJs) and to [distribute clusters on a network visualization using the group-in-a-box technique](https://github.com/john-guerra/forceInABox).
+          br
+          div.row
+            div.col-md-4
+              a(href="http://johnguerra.co/viz/netVizLessons/") 
+                img.project(src="../img/projs/netVizLessons_small.gif" alt="netVizLessons")
+            div.col-md-8 
+              h4 
+                a(href="http://johnguerra.co/viz/netVizLessons/") NetViz lessons
+              div Some lessons I learned by doing netviz on industry
+
+
+          br
+          div.row
+            div.col-md-4
+              a(href="http://www.openvisconf.com/2017/#jgomez-video-item") 
+                img.project(src="../img/projs/openvisConf.png" alt="Openvisconf2017 talk")
+            div.col-md-8 
+              h4 
+                a(href="http://www.openvisconf.com/2017/#jgomez-video-item") Untangling the Hairball Openvisconf2017 talk
+              a(href="http://johnguerra.co/slides/untanglingTheHairball/#/") slides
+              div My talk at Openvis2017 explaining how to untangle networks
+          
 
 
 
-          //- John Alexis is a researcher, an entrepreneur, and a dreamer.
 
-          //- He is a researcher at Los Andes University where he investigates novel information visualization techniques for photos, networks, and trees at Los Andes University. He is also a remote lecturer at UC Berkeley. Previously, he worked at Yahoo Labs and PARC. He studied Information Visualization while pursuing his PhD at the HCIL working with Ben Shneiderman and Catherine Plaisant.
 
-          //- As an entrepreneur, he co-founded BTactile a search engine of image graphics for the blind; he also co-created a device to allow blind children to see colors and shapes with their hands.
+  script.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          //- He also likes to dream and build applications to generate insights using infovis such as: a report of the most followed accounts by the online communities like Openvis or IEEEVIS, a visualization of the results of the Colombian peace referendum (and of the 2016 US elections), a tool to monitor who likes your Facebook the most, or a Twitter monitor for the Colombian presidential election where he uncovered more than 500 fake accounts. He has also created open source libraries for in-browser network clustering and to distribute clusters on a network visualization using the group-in-a-box technique.
+      ga('create', 'UA-72531610-1', 'auto');
+      ga('send', 'pageview');    
+
