@@ -9,7 +9,7 @@ function doNetwork(data) {
     .attr("class", "step");
   var svg = container
     .append("svg");
-  
+
   var  dicTopics = d3.map(),
     r = d3.scaleLinear()
       .range([20, 60]),
@@ -21,12 +21,12 @@ function doNetwork(data) {
     line = d3.line()
       .x(function (d) { return d.x; })
       .y(function (d) { return d.y; });
-    
+
 
   svg.attr("width", width)
     .attr("height", height);
 
-  function forceBoundary() {    
+  function forceBoundary() {
     for (var i = 0, n = graph.nodes.length, node; i < n; ++i) {
       node = graph.nodes[i];
       if (node.x > width) node.x=width;
@@ -50,15 +50,15 @@ function doNetwork(data) {
     //   if (d.px<=0) { d.x=1; }
     //   if (d.px>=width) { d.x=width-1; }
     // }).strength(0.1))
-    .force("boundary", forceBoundary);    
-    // .force("topicsUp", 
+    .force("boundary", forceBoundary);
+    // .force("topicsUp",
     //   d3.forceY(function (d) {
-    //     return d.type==="topic" && ["Accesibility", "Web Development"].indexOf(d.name)!==-1  ? 
-    //       height/20 : 
+    //     return d.type==="topic" && ["Accesibility", "Web Development"].indexOf(d.name)!==-1  ?
+    //       height/20 :
     //       height*3/4;
     //   }).strength(function (d) {
-    //     return d.type==="topic" && ["Accesibility","Web Development"].indexOf(d.name)!==-1  ? 
-    //       0.4 : 
+    //     return d.type==="topic" && ["Accesibility","Web Development"].indexOf(d.name)!==-1  ?
+    //       0.4 :
     //       0;
     //   })
     // );
@@ -94,7 +94,7 @@ function doNetwork(data) {
 
   function getGraph(data) {
     var graph = {};
-    
+
     dicStudents = d3.map();
     dicTopics = d3.map();
     graph.nodes = [];
@@ -106,7 +106,7 @@ function doNetwork(data) {
 
         var prevSt = null;
         subTopics.forEach(function (st) {
-          st = st.trim();          
+          st = st.trim();
           if (!dicTopics.has(st)) {
             dicTopics.set(st, []);
           }
@@ -122,14 +122,14 @@ function doNetwork(data) {
     graph.links = [];
 
     r.domain(d3.extent(
-      dicTopics.entries(), 
+      dicTopics.entries(),
       function (d) { return d.value.length; }
       ));
     graph.nodes = graph.nodes.concat(dicTopics.entries()
       .map(function (t) {
         return {
-          name:t.key, 
-          nickname:t.key, 
+          name:t.key,
+          nickname:t.key,
           type:"topic",
           numberStudents:t.value.length
         };
@@ -148,18 +148,18 @@ function doNetwork(data) {
 
   function update(data) {
     console.log(data.length);
-    
+
 
     graph = getGraph(data);
 
-    
+
     simulation
         .nodes(graph.nodes)
         .on("tick", ticked);
 
     simulation.force("link")
         .links(graph.links);
-    // simulation.alphaTarget(0.3).restart();        
+    simulation.alphaTarget(0.7).restart();
 
     // d3.select(canvas)
     //     .call(d3.drag()
@@ -206,7 +206,7 @@ function doNetwork(data) {
               .attr("src", d.photo)
               .attr("alt", d.name)
               .attr("title", d.name)
-        }      
+        }
       });
 
     var links = svg.selectAll(".link")
@@ -220,16 +220,16 @@ function doNetwork(data) {
       })
       .style("stroke", function (d) { return c(d.target.name); });
 
-      
+
 
     function ticked() {
       nodes.merge(nodesEnter)
         // .filter(function (d) { return !d.fixed; })
-        .style("top", function (d) { 
-          return (d.y)+"px"; 
+        .style("top", function (d) {
+          return (d.y)+"px";
         })
-        .style("left", function (d) { 
-          return (d.x)+"px"; 
+        .style("left", function (d) {
+          return (d.x)+"px";
         });
 
       links.merge(linksEnter)
@@ -263,8 +263,8 @@ function doProjectList(data) {
   var studentList = d3.select("#studentsList");
 
   var lists = studentList.selectAll(".studentList")
-    .data(data.filter(function (d) { 
-      return d.type!=="topic"; 
+    .data(data.filter(function (d) {
+      return d.type!=="topic";
     }));
 
   lists.enter()
@@ -284,17 +284,17 @@ function doProjectList(data) {
       .attr("id", function (d) { return d.nickname; })
       .style("height", "150px");
 
-    nameAndPhoto.append("div")      
+    nameAndPhoto.append("div")
       .attr("class", "studentName")
       .call(function (selName) {
         selName.append("a")
           .attr("href", function (d) { return d.homepage; })
           .attr("target", "_blank")
-        .text(function (d) { 
+        .text(function (d) {
           return d.name;
-        })  
+        })
         selName.append("small")
-        .text(function (d) { 
+        .text(function (d) {
           return " " +d.level;
         })
       });
@@ -304,7 +304,7 @@ function doProjectList(data) {
     body.append("h3")
       .attr("class", "studentProject")
       .text(function (d) { return d.thesis; });
-      
+
     body.append("div")
       .attr("class", "studentProjectDescription")
       .text(function (d) { return d.description; })
@@ -323,7 +323,7 @@ function doProjectList(data) {
           })
           .attr("alt", function (d) {
             return "Image " + d.thesis + " " + d.name;
-          });      
+          });
 
     sel.append("hr")
   }
@@ -340,15 +340,15 @@ function movePhoto(nick) {
 
 
   if(selected!==null) { // unselect the previous one
-    selected.fixed = false; 
+    selected.fixed = false;
     console.log("clear" + selected.nickname);
     selected.fx = null;
     selected.fy = null;
 
 
-  } 
+  }
   d3.selectAll(".node.student")
-    .transition() 
+    .transition()
     .style("width", R+"px")
     .style("height", R+"px");
   node.fixed=true;
@@ -360,7 +360,7 @@ function movePhoto(nick) {
     .tween("style.left", function() {
       var
         target = (boundingRect.left  ),
-        // nSel = this, 
+        // nSel = this,
         i = d3.interpolateNumber(node.x, target);
       return function(t) {
         // nSel.setAttribute("style.left", i(t) + "px");
@@ -371,13 +371,13 @@ function movePhoto(nick) {
     .tween("style.top", function() {
       var
         target = (boundingRect.top - 50 + window.pageYOffset ),
-        // nSel = this, 
+        // nSel = this,
         i = d3.interpolateNumber(node.y, target);
       return function(t) {
         // nSel.setAttribute("style.top", i(t) + "px");
         // node.fixed=true;
         if (node.fixed) { node.fy = i(t); }
-        
+
         // console.log(i(t));
       };
     })
@@ -385,7 +385,7 @@ function movePhoto(nick) {
     .style("height", "120px")
     // .style("left",  + "px")
     // .style("top", (boundingRect.top+window.pageYOffset) + "px" );
-  
+
 }
 
 
@@ -406,32 +406,32 @@ function init() {
 window.onload = function() { init(); };
 
 function setupScroller() {
-  // Jim Vallandingan"s scrolling code 
+  // Jim Vallandingan"s scrolling code
   // setup scroll functionality
   var scroll = scroller()
-    .container(d3.select(".content"));
+    .container(d3.select(".students"));
 
   // pass in .step selection as the steps
-  scroll(d3.selectAll(".step"));
+  scroll(d3.select(".students").selectAll(".step"));
 
   // setup event handling
   scroll.on("active", function (index) {
     // highlight current step text
     d3.selectAll(".step.opacable")
 
-      .style("opacity", function (d, i) { 
-        return i === index-1 ? 1 : 0.1; 
+      .style("opacity", function (d, i) {
+        return i === index-1 ? 1 : 0.1;
       });
 
     // activate current section
     // plot.activate(index);
     console.log(index);
-    
+
     if (index>=1) {
       console.log(graph.nodes[index-1]);
-      movePhoto(graph.nodes[index-1].nickname);  
+      movePhoto(graph.nodes[index-1].nickname);
     }
-    
+
   });
 
   // scroll.on("progress", function (index, progress) {
