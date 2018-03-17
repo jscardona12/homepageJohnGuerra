@@ -1,6 +1,6 @@
 project,date,categories,type,thumb,url,rating
 bens_network,8/1/09,treeViz,research,Ben'sFlickr_thumb.png,http://johnguerra.co,2
-btactile,1/1/16,treeViz,research,BTactile_screenshot_small.png,http://btactile.com/,5
+btactile,1/1/16,treeViz,research,BTactile_screenshot.png,http://btactile.com/,5
 flickrstats,10/1/15,treeViz,research,flickrstats.png,https://www.flickr.com/stats,5
 flickrstats Mobile,11/1/15,treeViz,research,flickrstats_mobile.png,https://www.flickr.com/stats,5
 forceinabox,12/1/14,treeViz,research,forceInABoxv4.gif,http://bl.ocks.org/john-guerra/830e536314436e2c6396484bcc1e3b3d,5
@@ -37,10 +37,10 @@ Colombian Peace Agreement results,10/31/16,viz,professional,resultadosPlebiscito
 Kickstarter projects,9/15/16,viz,professional,kickstarter.png,http://bl.ocks.org/john-guerra/38b1c32154905828f019f35a026b7526,3
 Colombia Olympics,8/23/16,viz,professional,colombiaOlympics.gif,https://bl.ocks.org/john-guerra/653dff16b54df2ad2682c8dd0cfbe27a,3
 Colombia as a Force Layout,7/20/16,viz,professional,colombiaForce.gif,https://bl.ocks.org/john-guerra/4db5024e00a82f10a2dc,3
-IEEEVIS Publications Network,6/18/15,viz,professional,visPubNetwork_small.gif,http://johnguerra.co/viz/visPubNetwork/,3
+IEEEVIS Publications Network,6/18/15,viz,professional,visPubNetwork.gif,http://johnguerra.co/viz/visPubNetwork/,3
 VIZ Ecology,6/18/15,slides,professional,vizEcology.png,http://johnguerra.co/viz/visEcology,1
 Used Cars Colombia,5/10/16,viz,professional,usedCarsColombia.gif,http://johnguerra.co/viz/bigDataQuest/#/insightcars,2
-NetViz Lessons learned,6/18/15,slides,professional,netVizLessons_small.gif,http://johnguerra.co/viz/netVizLessons,4
+NetViz Lessons learned,6/18/15,slides,professional,netVizLessons.gif,http://johnguerra.co/viz/netVizLessons,4
 OpenVis 2017 Talk,4/24/17,video,professional,openvisConf.png,https://openvisconf.com/#jgomez-video-item,4
 GradesViz,12/16/16,video,professional,GradesViz.png,http://johnguerra.co/viz/gradesViz/,3
 CrowdMovement,6/1/17,viz,academic,crowdMovement.gif,http://johnguerra.co/viz/crowdMovement/,5
