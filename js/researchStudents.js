@@ -160,7 +160,7 @@ function doNetwork(data) {
 
     simulation.force("link")
       .links(graph.links);
-    // simulation.alphaTarget(0.3).restart();
+    simulation.alphaTarget(0.3).restart();
 
     // d3.select(canvas)
     //     .call(d3.drag()
@@ -447,15 +447,17 @@ function setupScroller() {
     console.log(index);
 
     selected = [];
+    // if (index > 1) {
+    //   movePhoto(graph.nodes[index-2].nickname);
+    // }
     if (index > 0) {
       movePhoto(graph.nodes[index-1].nickname);
     }
-    if (index > 1) {
-      movePhoto(graph.nodes[index-2].nickname);
-    }
-    if (index < steps.nodes().length -1){
+    if (index!== 0 && index < steps.nodes().length -1){
       movePhoto(graph.nodes[index].nickname);
-
+    }
+    if (index!== 0 && index < steps.nodes().length -2){
+      movePhoto(graph.nodes[index+1].nickname);
     }
     clearPhotos();
 
