@@ -14,6 +14,7 @@ body {
 }
 #papers .category {
   clear:both;
+  page-break-before:always;
 }
 #papers .paper {
   margin-bottom: 2px;
