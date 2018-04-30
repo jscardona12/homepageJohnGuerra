@@ -306,9 +306,24 @@ function doProjectList(data) {
       .attr("class", "studentProject")
       .text(function (d) { return d.thesis; });
 
+    body.append("span")
+    .append("a")
+      .attr("href", function (d) { return d.slides })
+      .attr("target", "_blank")
+      .style("margin-right", "1em")
+    .text("Slides");
+    
+    body.append("span")
+    .append("a")
+      .attr("href", function (d) { return d.demo })
+      .attr("target", "_blank")
+    .text("Demo");
+    
+
     body.append("div")
       .attr("class", "studentProjectDescription")
       .text(function (d) { return d.description; })
+
 
     body
       .filter(function (d) { return d.project_thumbnail; })
