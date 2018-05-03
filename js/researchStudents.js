@@ -306,19 +306,23 @@ function doProjectList(data) {
       .attr("class", "studentProject")
       .text(function (d) { return d.thesis; });
 
-    body.append("span")
+    body
+    .filter(function (d) { return d.slides && d.slides!==""; })
+    .append("span")
     .append("a")
       .attr("href", function (d) { return d.slides })
       .attr("target", "_blank")
       .style("margin-right", "1em")
     .text("Slides");
-    
-    body.append("span")
+
+    body
+    .filter(function (d) { return d.slides && d.slides!==""; })
+    .append("span")
     .append("a")
       .attr("href", function (d) { return d.demo })
       .attr("target", "_blank")
     .text("Demo");
-    
+
 
     body.append("div")
       .attr("class", "studentProjectDescription")

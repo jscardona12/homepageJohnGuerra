@@ -24,12 +24,12 @@ function update(data) {
   var projs = topics.selectAll(".project")
     .data(function (d) {
       return d.values.sort(function (a, b) {
-        return d3.ascending(a["Nombres "], b["Nombres "]);
+        return d3.ascending(a["Nombres"], b["Nombres"]);
       });
     })
-      .enter()
-        .append("div")
-          .attr("class", "col-sm-3 project");
+    .enter()
+      .append("div")
+        .attr("class", "col-sm-3 project");
 
   // projs
   //   .append("div")
@@ -53,7 +53,7 @@ function update(data) {
 
   desc.append("div").append("a")
     .attr("href" , function (d) { return d["URL de su página personal"];})
-    .text(function (d) { return d["Nombres "] + " " + d["Apellidos"]; });
+    .text(function (d) { return d["Nombres"] + " " + d["Apellidos"]; });
 
   desc.filter(function (d) {
     return d["Código 2"] && d["Código 2"]!==d["Código"];
@@ -77,7 +77,7 @@ function update(data) {
           "../images/logo_desarrollo_web.png";
       })
       .attr("alt", function (d) {
-        return "Image " + d["Proyecto"] + " " + d["Nombres "] + " " + d["Apellidos"];
+        return "Image " + d["Proyecto"] + " " + d["Nombres"] + " " + d["Apellidos"];
       });
 
 
