@@ -17,8 +17,8 @@ function doNetwork(data) {
     width = container.node().offsetWidth,
     height = 600,
     c = d3.scaleOrdinal()
-      .domain(["InfoViz Testing", "InfoViz","Medicine", "Biology", "PhotoViz", "Visual Analytics", "Accesibility", "Machine Learning", "Photoviz", "Business",  "Large DataViz", "Web Development"])
-      .range(["#A7CA4E", "#A7CA4E",          "#BFCBC2", "#BFCBC2", "#A7CA4E", "#A7CA4E", "#76C7F2",                "#99C5B5",          "#A7CA4E", "#BFCBC2",   "#A7CA4E", "#B9BBE0"]),
+      .domain(["InfoViz Testing", "InfoViz","Medicine", "Biology", "PhotoViz", "Visual Analytics", "Accesibility", "Machine Learning", "Photoviz", "Business",  "Large DataViz", "Web Development", "Politics"])
+      .range(["#A7CA4E", "#A7CA4E",          "#BFCBC2", "#BFCBC2", "#A7CA4E", "#A7CA4E", "#76C7F2",                "#99C5B5",          "#A7CA4E", "#BFCBC2",   "#A7CA4E", "#B9BBE0",                "#BFCBC2"]),
     line = d3.line()
       .x(function (d) { return d.x; })
       .y(function (d) { return d.y; });
@@ -64,8 +64,10 @@ function doNetwork(data) {
   //   })
   // );
 
+
+
   function dragstarted() {
-    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    if (!d3.event.active) simulation.alpha(1).restart();
     d3.event.subject.fx = d3.event.subject.x;
     d3.event.subject.fy = d3.event.subject.y;
   }
@@ -158,10 +160,15 @@ function doNetwork(data) {
       .nodes(graph.nodes)
       .on("tick", ticked);
 
+
+
     simulation.force("link")
       .links(graph.links);
-    simulation.alphaTarget(0.3).restart();
 
+
+    // simulation.stop();
+    d3.range(500).forEach(function () { simulation.alpha(1).tick(); });
+    simulation.alpha(1).restart();
     // d3.select(canvas)
     //     .call(d3.drag()
     //         .container(canvas)
@@ -416,11 +423,11 @@ function movePhoto(nick) {
       };
     })
     .style("width", bigWidth+ "px")
-    .style("height", bigWidth+ "px")
+    .style("height", bigWidth+ "px");
     // .style("left",  + "px")
     // .style("top", (boundingRect.top+window.pageYOffset) + "px" );
 
-    simulation.alphaTarget(0.3).restart();
+  simulation.alphaTarget(0.3).restart();
 
 }
 
